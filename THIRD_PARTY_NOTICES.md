@@ -1,6 +1,6 @@
 # Third-party notices
 
-Code in this repository that belongs to someone else keeps the licence its author gave it. The copyright in `LICENSE` (Copyright (c) 2026 ASSEMBLR VENTURES, S.L.) does not cover that code.
+Code in this repository that belongs to someone else keeps the licence its author gave it. The copyright in `LICENSE` (Copyright (c) 2026 ASSEMBLR VENTURES, S.L.) does not cover that code. `LICENSE` is the standard MIT License text for this repository's own code. The anatomy kit's own MIT licence is copied below; it is not part of `LICENSE`.
 
 ## anatomy drawing kit
 

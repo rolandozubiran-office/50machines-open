@@ -1,0 +1,24 @@
+{
+  "n": 19,
+  "slug": "ram-pump",
+  "prefix": "rm",
+  "era": "II",
+  "name": "Hydraulic ram pump",
+  "tagline": "Uses the water's own momentum to pump uphill, day and night, with no fuel.",
+  "keyNumber": "30–100 strokes a minute",
+  "difficulty": 3,
+  "needs": [
+    10
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/ram-pump-guide.html",
+  "es": {
+    "name": "Ariete hidráulico",
+    "tagline": "Usa el propio impulso del agua para bombearla cuesta arriba, día y noche, sin combustible.",
+    "keyNumber": "30–100 golpes por minuto",
+    "title": "Construye un ariete hidráulico"
+  }
+}

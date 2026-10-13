@@ -1,0 +1,22 @@
+{
+  "n": 7,
+  "slug": "rope-pump",
+  "prefix": "rp",
+  "era": "I",
+  "name": "Rope pump",
+  "tagline": "A loop of rope and washers lifts water with a hand crank.",
+  "keyNumber": "≈ 40 L/min from 10 m",
+  "difficulty": 2,
+  "needs": [],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/rope-pump-guide.html",
+  "es": {
+    "name": "Bomba de mecate",
+    "tagline": "Un lazo de cuerda con arandelas sube agua con una manivela.",
+    "keyNumber": "≈ 40 L/min desde 10 m",
+    "title": "Construye una bomba de mecate"
+  }
+}

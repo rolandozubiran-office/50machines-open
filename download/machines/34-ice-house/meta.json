@@ -1,0 +1,24 @@
+{
+  "n": 34,
+  "slug": "ice-house",
+  "prefix": "ih",
+  "era": "IV",
+  "name": "Ice house",
+  "tagline": "Winter ice packed in sawdust lasts into the summer.",
+  "keyNumber": "ice into June–August",
+  "difficulty": 2,
+  "needs": [
+    6
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/ice-house-guide.html",
+  "es": {
+    "name": "Pozo de nieve",
+    "tagline": "El hielo del invierno, prensado en serrín, dura hasta el verano.",
+    "keyNumber": "hielo hasta junio–agosto",
+    "title": "Construye un pozo de hielo"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "n": 11,
+  "slug": "wire",
+  "prefix": "wd",
+  "era": "II",
+  "name": "Wire draw plate",
+  "tagline": "Pulls copper rod through ever smaller holes into wire for coils and cables.",
+  "keyNumber": "anneal every ~3 passes",
+  "difficulty": 2,
+  "needs": [
+    9
+  ],
+  "unlocks": [
+    21,
+    22,
+    46,
+    48
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/wire-guide.html",
+  "es": {
+    "name": "Hilera de trefilar",
+    "tagline": "Estira varilla de cobre por agujeros cada vez más pequeños hasta hacer hilo para bobinas y cables.",
+    "keyNumber": "recocer cada ~3 pasadas",
+    "title": "Haz hilo de cobre"
+  }
+}

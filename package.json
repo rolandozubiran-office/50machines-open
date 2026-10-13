@@ -1,0 +1,14 @@
+{
+  "name": "50machines-open",
+  "private": true,
+  "description": "Open technology tree of 50 Machines. Generate downloadable model cards and guides for all 50 machines.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "build": "node scripts/generate.mjs"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "n": 43,
+  "slug": "compass",
+  "prefix": "cp",
+  "era": "V",
+  "name": "Magnetic compass",
+  "tagline": "A magnetised needle on a silk thread points north.",
+  "keyNumber": "Shen Kuo, 1088",
+  "difficulty": 1,
+  "needs": [
+    9
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/compass-guide.html",
+  "es": {
+    "name": "Brújula",
+    "tagline": "Una aguja imantada colgada de un hilo de seda señala el norte.",
+    "keyNumber": "Shen Kuo, 1088",
+    "title": "Haz una brújula"
+  }
+}

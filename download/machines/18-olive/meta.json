@@ -1,0 +1,25 @@
+{
+  "n": 18,
+  "slug": "olive",
+  "prefix": "om",
+  "era": "II",
+  "name": "Olive oil mill",
+  "tagline": "Stone mill, mat press and settling tank: 300 kg of olives to about 50 L of oil.",
+  "keyNumber": "≈ 5.6 kg olives per L",
+  "difficulty": 3,
+  "needs": [
+    10,
+    17
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/olive-guide.html",
+  "es": {
+    "name": "Almazara",
+    "tagline": "Molino de piedra, prensa de capachos y decantador: de 300 kg de aceituna, unos 50 L de aceite.",
+    "keyNumber": "≈ 5,6 kg de aceituna por litro",
+    "title": "Construye una almazara"
+  }
+}

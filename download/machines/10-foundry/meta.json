@@ -1,0 +1,33 @@
+{
+  "n": 10,
+  "slug": "foundry",
+  "prefix": "fd",
+  "era": "II",
+  "name": "Scrap metal foundry",
+  "tagline": "Remelts scrap aluminium and bronze into cast pulleys, gears and frames.",
+  "keyNumber": "bronze melts ≈ 950 °C",
+  "difficulty": 3,
+  "needs": [
+    1,
+    9
+  ],
+  "unlocks": [
+    13,
+    18,
+    19,
+    20,
+    24,
+    36,
+    41
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/foundry-guide.html",
+  "es": {
+    "name": "Fundición de chatarra",
+    "tagline": "Refunde aluminio y bronce de chatarra en poleas, engranajes y bastidores.",
+    "keyNumber": "el bronce funde a ≈ 950 °C",
+    "title": "Construye una fundición de chatarra"
+  }
+}

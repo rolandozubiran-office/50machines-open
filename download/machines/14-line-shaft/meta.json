@@ -1,0 +1,29 @@
+{
+  "n": 14,
+  "slug": "line-shaft",
+  "prefix": "ls",
+  "era": "II",
+  "name": "Line shaft, gears and belts",
+  "tagline": "Carries one water wheel's power to every machine in a workshop.",
+  "keyNumber": "one source, many machines",
+  "difficulty": 3,
+  "needs": [
+    9,
+    12
+  ],
+  "unlocks": [
+    16,
+    17,
+    23
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/line-shaft-guide.html",
+  "es": {
+    "name": "Eje de transmisión, engranajes y correas",
+    "tagline": "Lleva la fuerza de una sola rueda hidráulica a todas las máquinas de un taller.",
+    "keyNumber": "una fuente, muchas máquinas",
+    "title": "Monta un taller con eje de transmisión"
+  }
+}

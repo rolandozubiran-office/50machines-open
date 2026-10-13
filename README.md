@@ -1,5 +1,7 @@
 # 50 Machines · open technology tree
 
+[English](README.md) · [Español](README.es.md)
+
 [50machines.com](https://50machines.com) is a field manual of 50 machines in the order you could build them, from a clay kiln to a relay computer. Each machine uses only what the machines before it make.
 
 The first 50 guides were made by Rolando Zubirán. This repository holds the format, the templates and two reference guides so that anyone can propose machine 51 and beyond. Accepted machines appear in the tree on the site, marked **community**.
@@ -14,6 +16,9 @@ The first 50 guides were made by Rolando Zubirán. This repository holds the for
 | `reference/kiln`, `reference/power` | Two complete published guides (machine 1 and machine 23) to copy. |
 | `runtime/` | The shared guide player (`guide.js`, `guide.css`). |
 | `data/machines.mjs` | The 50 machines, their parts of the tree and what each one needs. |
+| `data/hub.es.json` | The same 50 machines in Spanish: names, lines and key numbers. |
+| `scripts/generate.mjs` | Builds a downloadable model card and guide for every machine. |
+| `download/` | Those cards, after you run the generator. One folder per machine, plus a zip. |
 | `community/` | Where new machines are submitted, one folder each. |
 
 ## How to contribute a machine
@@ -23,6 +28,20 @@ The first 50 guides were made by Rolando Zubirán. This repository holds the for
 3. Open a pull request. Fill in the checklist.
 4. A maintainer reviews it against `CONTRIBUTING.md` and `SAFETY.md`. Nothing is published on the site without review. Maintainers render the isometric drawing with Ryan's anatomy kit if you cannot (MIT; see `THIRD_PARTY_NOTICES.md`).
 5. When it is accepted it appears on 50machines.com marked **community**, with your name.
+
+## Download the 50 model cards
+
+`data/machines.mjs` is the open catalog of all 50 machines. Spanish names and lines are in `data/hub.es.json`. Machine 1 and machine 23 also have full reference guides in `reference/kiln` and `reference/power`.
+
+From a clean clone, with Node.js 18 or newer and nothing to install:
+
+```
+node scripts/generate.mjs
+```
+
+`npm run generate` is the same command. It writes one folder per machine under `download/machines/`, plus `download/index.html` and `download/50-machines.zip`.
+
+Each folder has `meta.json`, `model.mjs`, `guide.en.md`, `guide.es.md` and `guide.html`. Machines 1 and 23 also include the reference guide and its physics model. The other cards carry the published place in the tree, the key number and the design brief already in the catalog. They are not step-by-step shop guides, and they do not add numbers that are not already in the catalog. Read `SAFETY.md` before you build anything.
 
 ## Licence
 

@@ -1,0 +1,24 @@
+{
+  "n": 42,
+  "slug": "pendulum-clock",
+  "prefix": "pc",
+  "era": "V",
+  "name": "Pendulum clock",
+  "tagline": "A pendulum cut clock error from about 15 minutes a day to 15 seconds.",
+  "keyNumber": "≈ 15 s a day",
+  "difficulty": 4,
+  "needs": [
+    13
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/pendulum-clock-guide.html",
+  "es": {
+    "name": "Reloj de péndulo",
+    "tagline": "El péndulo redujo el error de los relojes de unos 15 minutos al día a 15 segundos.",
+    "keyNumber": "≈ 15 s al día",
+    "title": "Construye un reloj de péndulo"
+  }
+}

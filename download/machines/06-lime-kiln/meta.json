@@ -1,0 +1,27 @@
+{
+  "n": 6,
+  "slug": "lime-kiln",
+  "prefix": "lk",
+  "era": "I",
+  "name": "Lime kiln",
+  "tagline": "Burnt limestone gives mortar, whitewash and a disinfectant.",
+  "keyNumber": "above ≈ 900 °C",
+  "difficulty": 2,
+  "needs": [
+    1
+  ],
+  "unlocks": [
+    34,
+    40
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/lime-kiln-guide.html",
+  "es": {
+    "name": "Horno de cal",
+    "tagline": "La caliza calcinada da mortero, encalado y un desinfectante.",
+    "keyNumber": "por encima de ≈ 900 °C",
+    "title": "Construye un horno de cal"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "n": 38,
+  "slug": "gasifier",
+  "prefix": "wg",
+  "era": "IV",
+  "name": "Wood-gas generator",
+  "tagline": "Turns wood chips into a fuel gas that runs an engine.",
+  "keyNumber": "FEMA 1989 design",
+  "difficulty": 4,
+  "needs": [
+    9,
+    32
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/gasifier-guide.html",
+  "es": {
+    "name": "Gasógeno",
+    "tagline": "Convierte astillas de madera en un gas combustible que mueve un motor.",
+    "keyNumber": "diseño FEMA de 1989",
+    "title": "Construye un gasógeno"
+  }
+}

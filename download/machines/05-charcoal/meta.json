@@ -1,0 +1,27 @@
+{
+  "n": 5,
+  "slug": "charcoal",
+  "prefix": "ck",
+  "era": "I",
+  "name": "Charcoal kiln",
+  "tagline": "Charcoal burns hot and clean enough to smelt and forge metal.",
+  "keyNumber": "≈ 20–25% yield by weight",
+  "difficulty": 2,
+  "needs": [
+    1
+  ],
+  "unlocks": [
+    8,
+    9
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/charcoal-guide.html",
+  "es": {
+    "name": "Horno de carbón vegetal",
+    "tagline": "El carbón vegetal arde con calor y limpieza suficientes para fundir y forjar metal.",
+    "keyNumber": "≈ 20–25 % de rendimiento en peso",
+    "title": "Construye un horno de carbón vegetal"
+  }
+}

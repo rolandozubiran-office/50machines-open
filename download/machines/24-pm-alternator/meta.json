@@ -1,0 +1,28 @@
+{
+  "n": 24,
+  "slug": "pm-alternator",
+  "prefix": "pm",
+  "era": "III",
+  "name": "Permanent-magnet alternator",
+  "tagline": "Hand-wound coils and magnets: a generator you build instead of salvage.",
+  "keyNumber": "≈ 500 W at 425 rpm",
+  "difficulty": 4,
+  "needs": [
+    10,
+    13,
+    23
+  ],
+  "unlocks": [
+    25
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/pm-alternator-guide.html",
+  "es": {
+    "name": "Alternador de imanes permanentes",
+    "tagline": "Bobinas hechas a mano e imanes: un generador que fabricas en vez de rescatarlo.",
+    "keyNumber": "≈ 500 W a 425 rpm",
+    "title": "Construye un alternador de imanes permanentes"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "n": 28,
+  "slug": "light-bulb",
+  "prefix": "lb",
+  "era": "III",
+  "name": "Light bulb",
+  "tagline": "A carbon filament in a vacuum. Carbonised bamboo lasted over 1,200 hours.",
+  "keyNumber": "1,200 h filaments",
+  "difficulty": 5,
+  "needs": [
+    8,
+    26
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/light-bulb-guide.html",
+  "es": {
+    "name": "Bombilla",
+    "tagline": "Un filamento de carbono en el vacío. El bambú carbonizado duraba más de 1.200 horas.",
+    "keyNumber": "filamentos de 1.200 h",
+    "title": "Haz una bombilla"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "n": 29,
+  "slug": "solar-panel",
+  "prefix": "sl",
+  "era": "III",
+  "name": "Solar panel",
+  "tagline": "Salvage panels first; a home-made selenium or copper-oxide cell proves the effect.",
+  "keyNumber": "Fritts 1883: ≈ 1% efficient",
+  "difficulty": 4,
+  "needs": [
+    8,
+    26
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/solar-panel-guide.html",
+  "es": {
+    "name": "Panel solar",
+    "tagline": "Primero, paneles rescatados; una célula casera de selenio u óxido de cobre demuestra el efecto.",
+    "keyNumber": "Fritts, 1883: ≈ 1 % de rendimiento",
+    "title": "Saca energía del sol"
+  }
+}

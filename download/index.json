@@ -1,0 +1,765 @@
+{
+  "count": 50,
+  "generator": "scripts/generate.mjs",
+  "sources": [
+    "data/machines.mjs",
+    "data/hub.es.json"
+  ],
+  "machines": [
+    {
+      "n": 1,
+      "slug": "kiln",
+      "dir": "machines/01-kiln",
+      "en": "Pottery and brick kiln",
+      "es": "Horno de cerámica y ladrillo",
+      "kind": "reference",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html",
+        "reference/guide.mjs",
+        "reference/model.mjs",
+        "reference/meta.json"
+      ]
+    },
+    {
+      "n": 2,
+      "slug": "rocket-stove",
+      "dir": "machines/02-rocket-stove",
+      "en": "Rocket stove and boiler",
+      "es": "Estufa rocket y hervidor",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 3,
+      "slug": "soap",
+      "dir": "machines/03-soap",
+      "en": "Ash-lye soap kettle",
+      "es": "Caldero de jabón de ceniza",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 4,
+      "slug": "biosand",
+      "dir": "machines/04-biosand",
+      "en": "Biosand water filter",
+      "es": "Filtro de bioarena",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 5,
+      "slug": "charcoal",
+      "dir": "machines/05-charcoal",
+      "en": "Charcoal kiln",
+      "es": "Horno de carbón vegetal",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 6,
+      "slug": "lime-kiln",
+      "dir": "machines/06-lime-kiln",
+      "en": "Lime kiln",
+      "es": "Horno de cal",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 7,
+      "slug": "rope-pump",
+      "dir": "machines/07-rope-pump",
+      "en": "Rope pump",
+      "es": "Bomba de mecate",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 8,
+      "slug": "glass",
+      "dir": "machines/08-glass",
+      "en": "Glass furnace",
+      "es": "Horno de vidrio",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 9,
+      "slug": "forge",
+      "dir": "machines/09-forge",
+      "en": "Bellows and forge",
+      "es": "Fuelle y fragua",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 10,
+      "slug": "foundry",
+      "dir": "machines/10-foundry",
+      "en": "Scrap metal foundry",
+      "es": "Fundición de chatarra",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 11,
+      "slug": "wire",
+      "dir": "machines/11-wire",
+      "en": "Wire draw plate",
+      "es": "Hilera de trefilar",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 12,
+      "slug": "pole-lathe",
+      "dir": "machines/12-pole-lathe",
+      "en": "Pole lathe",
+      "es": "Torno de pértiga",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 13,
+      "slug": "metal-lathe",
+      "dir": "machines/13-metal-lathe",
+      "en": "Metal lathe",
+      "es": "Torno para metal",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 14,
+      "slug": "line-shaft",
+      "dir": "machines/14-line-shaft",
+      "en": "Line shaft, gears and belts",
+      "es": "Eje de transmisión, engranajes y correas",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 15,
+      "slug": "water-wheel",
+      "dir": "machines/15-water-wheel",
+      "en": "Water wheel",
+      "es": "Rueda hidráulica",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 16,
+      "slug": "wind-pump",
+      "dir": "machines/16-wind-pump",
+      "en": "Wind pump",
+      "es": "Molino de viento para bombear",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 17,
+      "slug": "grain-mill",
+      "dir": "machines/17-grain-mill",
+      "en": "Water-powered grain mill",
+      "es": "Molino de grano hidráulico",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 18,
+      "slug": "olive",
+      "dir": "machines/18-olive",
+      "en": "Olive oil mill",
+      "es": "Almazara",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 19,
+      "slug": "ram-pump",
+      "dir": "machines/19-ram-pump",
+      "en": "Hydraulic ram pump",
+      "es": "Ariete hidráulico",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 20,
+      "slug": "steam-engine",
+      "dir": "machines/20-steam-engine",
+      "en": "Steam engine",
+      "es": "Máquina de vapor",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 21,
+      "slug": "battery",
+      "dir": "machines/21-battery",
+      "en": "Voltaic battery",
+      "es": "Pila voltaica",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 22,
+      "slug": "electromagnet",
+      "dir": "machines/22-electromagnet",
+      "en": "Electromagnet",
+      "es": "Electroimán",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 23,
+      "slug": "power",
+      "dir": "machines/23-power",
+      "en": "Stream-powered generator",
+      "es": "Generador de arroyo",
+      "kind": "reference",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html",
+        "reference/guide.mjs",
+        "reference/model.mjs"
+      ]
+    },
+    {
+      "n": 24,
+      "slug": "pm-alternator",
+      "dir": "machines/24-pm-alternator",
+      "en": "Permanent-magnet alternator",
+      "es": "Alternador de imanes permanentes",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 25,
+      "slug": "wind-turbine",
+      "dir": "machines/25-wind-turbine",
+      "en": "Wind turbine",
+      "es": "Aerogenerador",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 26,
+      "slug": "lead-acid",
+      "dir": "machines/26-lead-acid",
+      "en": "Lead-acid battery",
+      "es": "Batería de plomo-ácido",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 27,
+      "slug": "motor",
+      "dir": "machines/27-motor",
+      "en": "Electric motor",
+      "es": "Motor eléctrico",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 28,
+      "slug": "light-bulb",
+      "dir": "machines/28-light-bulb",
+      "en": "Light bulb",
+      "es": "Bombilla",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 29,
+      "slug": "solar-panel",
+      "dir": "machines/29-solar-panel",
+      "en": "Solar panel",
+      "es": "Panel solar",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 30,
+      "slug": "micro-hydro",
+      "dir": "machines/30-micro-hydro",
+      "en": "Micro-hydro turbine",
+      "es": "Microturbina hidráulica",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 31,
+      "slug": "chlorinator",
+      "dir": "machines/31-chlorinator",
+      "en": "Salt-water chlorinator",
+      "es": "Clorador de agua salada",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 32,
+      "slug": "arc-welder",
+      "dir": "machines/32-arc-welder",
+      "en": "Arc welder",
+      "es": "Soldador de arco",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 33,
+      "slug": "zeer-pot",
+      "dir": "machines/33-zeer-pot",
+      "en": "Zeer pot cooler",
+      "es": "Nevera zeer",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 34,
+      "slug": "ice-house",
+      "dir": "machines/34-ice-house",
+      "en": "Ice house",
+      "es": "Pozo de nieve",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 35,
+      "slug": "icyball",
+      "dir": "machines/35-icyball",
+      "en": "Absorption refrigerator",
+      "es": "Frigorífico de absorción",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 36,
+      "slug": "solar-heater",
+      "dir": "machines/36-solar-heater",
+      "en": "Solar water heater",
+      "es": "Calentador solar de agua",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 37,
+      "slug": "solar-cooker",
+      "dir": "machines/37-solar-cooker",
+      "en": "Solar cooker",
+      "es": "Horno solar",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 38,
+      "slug": "gasifier",
+      "dir": "machines/38-gasifier",
+      "en": "Wood-gas generator",
+      "es": "Gasógeno",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 39,
+      "slug": "stirling",
+      "dir": "machines/39-stirling",
+      "en": "Stirling engine",
+      "es": "Motor Stirling",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 40,
+      "slug": "biogas",
+      "dir": "machines/40-biogas",
+      "en": "Biogas digester",
+      "es": "Biodigestor",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 41,
+      "slug": "printing-press",
+      "dir": "machines/41-printing-press",
+      "en": "Paper and printing press",
+      "es": "Papel e imprenta",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 42,
+      "slug": "pendulum-clock",
+      "dir": "machines/42-pendulum-clock",
+      "en": "Pendulum clock",
+      "es": "Reloj de péndulo",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 43,
+      "slug": "compass",
+      "dir": "machines/43-compass",
+      "en": "Magnetic compass",
+      "es": "Brújula",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 44,
+      "slug": "microscope",
+      "dir": "machines/44-microscope",
+      "en": "Microscope",
+      "es": "Microscopio",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 45,
+      "slug": "telescope",
+      "dir": "machines/45-telescope",
+      "en": "Telescope",
+      "es": "Telescopio",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 46,
+      "slug": "telegraph",
+      "dir": "machines/46-telegraph",
+      "en": "Telegraph",
+      "es": "Telégrafo",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 47,
+      "slug": "telephone",
+      "dir": "machines/47-telephone",
+      "en": "Telephone",
+      "es": "Teléfono",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 48,
+      "slug": "crystal-radio",
+      "dir": "machines/48-crystal-radio",
+      "en": "Crystal radio",
+      "es": "Radio de galena",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 49,
+      "slug": "spark-radio",
+      "dir": "machines/49-spark-radio",
+      "en": "Spark-gap transmitter",
+      "es": "Transmisor de chispa",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    },
+    {
+      "n": 50,
+      "slug": "relay-computer",
+      "dir": "machines/50-relay-computer",
+      "en": "Relay computer",
+      "es": "Ordenador de relés",
+      "kind": "catalog",
+      "files": [
+        "meta.json",
+        "model.mjs",
+        "guide.en.md",
+        "guide.es.md",
+        "guide.html"
+      ]
+    }
+  ]
+}

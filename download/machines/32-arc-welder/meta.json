@@ -1,0 +1,28 @@
+{
+  "n": 32,
+  "slug": "arc-welder",
+  "prefix": "aw",
+  "era": "III",
+  "name": "Arc welder",
+  "tagline": "Joins steel with current: tanks, frames and pressure vessels.",
+  "keyNumber": "joins steel plate",
+  "difficulty": 4,
+  "needs": [
+    23,
+    26
+  ],
+  "unlocks": [
+    35,
+    38
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/arc-welder-guide.html",
+  "es": {
+    "name": "Soldador de arco",
+    "tagline": "Une acero con corriente: depósitos, bastidores y recipientes a presión.",
+    "keyNumber": "suelda chapa de acero",
+    "title": "Construye un soldador de arco"
+  }
+}

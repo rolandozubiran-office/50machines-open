@@ -1,0 +1,33 @@
+{
+  "n": 26,
+  "slug": "lead-acid",
+  "prefix": "la",
+  "era": "III",
+  "name": "Lead-acid battery",
+  "tagline": "Lead sheets in acid store the day's power for the night.",
+  "keyNumber": "Planté cell, 1859",
+  "difficulty": 4,
+  "needs": [
+    21,
+    23
+  ],
+  "unlocks": [
+    27,
+    28,
+    29,
+    31,
+    32,
+    49,
+    50
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/lead-acid-guide.html",
+  "es": {
+    "name": "Batería de plomo-ácido",
+    "tagline": "Placas de plomo en ácido guardan la energía del día para la noche.",
+    "keyNumber": "pila de Planté, 1859",
+    "title": "Construye una batería de plomo-ácido"
+  }
+}

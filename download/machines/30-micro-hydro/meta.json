@@ -1,0 +1,25 @@
+{
+  "n": 30,
+  "slug": "micro-hydro",
+  "prefix": "mh",
+  "era": "III",
+  "name": "Micro-hydro turbine",
+  "tagline": "A crossflow turbine copes with changing flow better than a wheel.",
+  "keyNumber": "70–85% efficient",
+  "difficulty": 4,
+  "needs": [
+    13,
+    23
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/micro-hydro-guide.html",
+  "es": {
+    "name": "Microturbina hidráulica",
+    "tagline": "Una turbina de flujo cruzado se adapta a los cambios de caudal mejor que una rueda.",
+    "keyNumber": "70–85 % de rendimiento",
+    "title": "Construye una microturbina hidráulica"
+  }
+}

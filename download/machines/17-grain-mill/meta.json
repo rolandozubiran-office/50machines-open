@@ -1,0 +1,27 @@
+{
+  "n": 17,
+  "slug": "grain-mill",
+  "prefix": "gm",
+  "era": "II",
+  "name": "Water-powered grain mill",
+  "tagline": "Millstones on a water wheel grind as fast as about 40 hand querns: flour for hundreds of families.",
+  "keyNumber": "hand mill: 2–3 kg/h",
+  "difficulty": 3,
+  "needs": [
+    14,
+    15
+  ],
+  "unlocks": [
+    18
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/grain-mill-guide.html",
+  "es": {
+    "name": "Molino de grano hidráulico",
+    "tagline": "Unas muelas movidas por una rueda hidráulica muelen tanto como unas 40 muelas de mano: harina para cientos de familias.",
+    "keyNumber": "molino de mano: 2–3 kg/h",
+    "title": "Construye un molino hidráulico"
+  }
+}

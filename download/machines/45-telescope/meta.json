@@ -1,0 +1,25 @@
+{
+  "n": 45,
+  "slug": "telescope",
+  "prefix": "ts",
+  "era": "V",
+  "name": "Telescope",
+  "tagline": "Two lenses in a tube for navigation, surveying and the sky.",
+  "keyNumber": "≈ 20×",
+  "difficulty": 3,
+  "needs": [
+    8,
+    13
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/telescope-guide.html",
+  "es": {
+    "name": "Telescopio",
+    "tagline": "Dos lentes en un tubo para navegar, medir el terreno y mirar el cielo.",
+    "keyNumber": "≈ 20×",
+    "title": "Construye un telescopio"
+  }
+}

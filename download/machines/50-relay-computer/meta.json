@@ -1,0 +1,26 @@
+{
+  "n": 50,
+  "slug": "relay-computer",
+  "prefix": "rc",
+  "era": "V",
+  "name": "Relay computer",
+  "tagline": "Thousands of relays make a programmable computer.",
+  "keyNumber": "Zuse Z3: 5–10 Hz",
+  "difficulty": 5,
+  "needs": [
+    22,
+    26,
+    46
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/relay-computer-guide.html",
+  "es": {
+    "name": "Ordenador de relés",
+    "tagline": "Miles de relés forman un ordenador programable.",
+    "keyNumber": "Zuse Z3: 5–10 Hz",
+    "title": "Construye un ordenador de relés"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "n": 16,
+  "slug": "wind-pump",
+  "prefix": "wp",
+  "era": "II",
+  "name": "Wind pump",
+  "tagline": "The multi-blade windmill pumps water with no fuel at all.",
+  "keyNumber": "the most common wind pump",
+  "difficulty": 3,
+  "needs": [
+    14
+  ],
+  "unlocks": [
+    25
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/wind-pump-guide.html",
+  "es": {
+    "name": "Molino de viento para bombear",
+    "tagline": "El molino multipala bombea agua sin ningún combustible.",
+    "keyNumber": "la bomba eólica más extendida",
+    "title": "Construye un molino de bombeo"
+  }
+}

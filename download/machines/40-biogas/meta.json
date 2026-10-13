@@ -1,0 +1,25 @@
+{
+  "n": 40,
+  "slug": "biogas",
+  "prefix": "bg",
+  "era": "IV",
+  "name": "Biogas digester",
+  "tagline": "Manure and food scraps rot into cooking gas and fertiliser.",
+  "keyNumber": "gas and fertiliser",
+  "difficulty": 3,
+  "needs": [
+    1,
+    6
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/biogas-guide.html",
+  "es": {
+    "name": "Biodigestor",
+    "tagline": "El estiércol y los restos de comida se pudren y dan gas para cocinar y abono.",
+    "keyNumber": "gas y abono",
+    "title": "Construye un biodigestor"
+  }
+}

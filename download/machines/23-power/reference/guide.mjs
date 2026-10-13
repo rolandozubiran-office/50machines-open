@@ -1,0 +1,92 @@
+// Guide text for the water-wheel generator. Sizes are read off the drawing (1 unit = 2.5 cm).
+
+export const CHAPTERS = { A: "A · Build the plant", B: "B · Make power" };
+
+export const GUIDE = [
+  {
+    part: "A", short: "Tailrace", title: "Dig the tailrace",
+    lead: "Start where the water leaves. A stone channel under the wheel carries spent water away, so the wheel never drags in its own tailwater.",
+    need: ["A level base 10.8 × 3.6 m beside a stream with a drop", "Stone or concrete for two walls, 4 m long and 25 cm high", "A channel 60 cm wide inside"],
+    steps: ["Set out the channel along the line the water will run.", "Build both walls and grout the floor.", "Give the floor a slight fall downstream."],
+    check: "A bucket of water poured in at the top end runs out at the bottom without pooling.",
+    readout: "tailrace · 4 m × 60 cm",
+  },
+  {
+    part: "A", short: "Forebay", title: "Build the forebay and sluice",
+    lead: "The forebay is a stone tank fed from upstream. It holds the water 3 m up and steadies it, and a sliding sluice gate sets how much leaves.",
+    need: ["Stone or block tank, 1.05 × 1.4 m, 3.15 m tall", "Inlet pipe from upstream, Ø 20 cm", "Steel gate plate 45 × 40 cm in two guides", "Lifting spindle and handwheel"],
+    steps: ["Build the tank in courses and render the inside.", "Bring the inlet pipe in near the top.", "Fit the gate guides on the outlet face and slide the plate in."],
+    check: "Filled with the gate shut, the level holds overnight.",
+    readout: "forebay · water at 3.05 m",
+  },
+  {
+    part: "A", short: "Flume", title: "Run the flume",
+    lead: "The flume is an open trough that carries water from the gate to just past the top of the wheel, so it falls into the buckets on the far side.",
+    need: ["Timber or steel trough, 3.15 m long, 40 cm wide inside", "3 trestles, the last one wide enough to straddle the wheel", "Sealant for the joints"],
+    steps: ["Stand the trestles and level their crossbeams at 2.8 m.", "Lay the trough on them with a very slight fall toward the wheel.", "End it 20 cm past the wheel's top dead centre."],
+    check: "With the gate cracked open, water runs the whole length and leaves the lip in a clean sheet.",
+    readout: "flume · 3.15 m · lip past top centre",
+  },
+  {
+    part: "A", short: "Wheel", title: "Build the wheel",
+    lead: "An overshot wheel turns by the weight of water in its buckets, which is why it keeps 80 to 90% of the water's power.",
+    need: ["2 rims, Ø 2.4 m", "16 arms, 8 to a side", "24 buckets, 45 cm wide", "A sole board closing the buckets at the back", "A hub for a Ø 15 cm axle"],
+    steps: ["Lay out one rim flat, fix its 8 arms to the hub, then the second rim.", "Fit the sole between the rims.", "Fit the 24 buckets, each leaning forward to hold water on the way down."],
+    check: "Stood on its axle, the wheel stays put at any angle: it is in balance.",
+    readout: "wheel · Ø 2.4 m · 24 buckets",
+  },
+  {
+    part: "A", short: "Axle", title: "Hang it on its bearings",
+    lead: "Two A-frames carry the axle 1.55 m up, with a bearing block on each. They take the wheel's weight and the water's.",
+    need: ["2 timber A-frames, 1.1 m apart", "2 bearing blocks for a Ø 15 cm axle", "Grease"],
+    steps: ["Stand the A-frames either side of the tailrace, square to it.", "Lift the wheel in and drop the axle into the open blocks.", "Close and grease the blocks."],
+    check: "Spun by hand, the wheel coasts for several turns and clears the flume and tailrace everywhere.",
+    readout: "axle · 1.55 m up · 2 bearings",
+  },
+  {
+    part: "A", short: "Gearing", title: "Gear it up",
+    lead: "The wheel turns about 10 times a minute and an alternator needs over 1,000. A toothed ring on the wheel's rim drives a small pinion 12 times faster.",
+    need: ["Ring gear, Ø 2.5 m, 120 teeth, bolted to the near rim", "Pinion, 10 teeth", "Countershaft on 2 pedestals", "Pulley, Ø 1.0 m, on the countershaft"],
+    steps: ["Bolt the ring gear to the rim and check it runs true.", "Set the pedestals so the pinion meshes with the ring.", "Key the 1 m pulley to the countershaft between the pedestals."],
+    check: "One turn of the wheel turns the countershaft exactly 12 times. Guard the gear mesh before you run it.",
+    readout: "gearing · 12 : 1",
+  },
+  {
+    part: "A", short: "Alternator", title: "Belt the alternator",
+    lead: "A flat belt from the big pulley to the alternator's small one multiplies the speed again, by about 8.3, for 100 : 1 overall.",
+    need: ["A salvaged car alternator, 12 V", "Its stock pulley, Ø 12 cm", "Flat belt, 7 cm wide", "A stand to bolt it to, with slotted holes for tension"],
+    steps: ["Bolt the alternator to its stand with the pulleys in line.", "Fit the belt and slide the alternator back to tension it.", "Run a 12 V lead to its output terminal."],
+    check: "Ten turns of the wheel turn the alternator about a thousand times.",
+    readout: "drive · 100 : 1 overall",
+  },
+  {
+    part: "A", short: "Wiring", title: "Wire the batteries and lights",
+    lead: "The alternator charges two 12 V batteries in parallel; the batteries run a string of six 12 V, 60 W bulbs hung between two poles.",
+    need: ["2 lead-acid batteries, 12 V", "Voltmeter", "Cable sized for 50 A, and a fuse on each battery lead", "2 poles, 2.35 m, with a catenary wire", "6 bulbs, 12 V 60 W"],
+    steps: ["Set the batteries on the bench and link them, plus to plus, minus to minus.", "Run the alternator lead to the batteries through a fuse, then the lamp lead to the poles.", "Hang the bulbs along the wire."],
+    check: "With the wheel still, the voltmeter reads 12.6 V and every bulb lights from the batteries.",
+    readout: "batteries · 2 × 12 V · 6 bulbs",
+  },
+  {
+    part: "B", short: "A little", title: "Open the sluice a little", gate: 0.3,
+    lead: "At 30% the gate passes 18 L/s. The wheel turns, but the alternator only reaches about 650 rpm: below cut-in, so nothing charges. Try the slider.",
+    need: ["The sluice at 30%"],
+    steps: ["Raise the gate slowly.", "Watch the wheel speed and the alternator speed."],
+    check: "Below 32 L/s the battery reading stays at 12.6 V.",
+  },
+  {
+    part: "B", short: "Cut-in", title: "Reach cut-in",
+    gate: 0.65,
+    lead: "At 65% the gate passes 39 L/s, the wheel turns 11.8 rpm and the alternator about 1,180 rpm. It starts to charge, and the first bulbs light.",
+    need: ["The sluice at 65%"],
+    steps: ["Open the gate further.", "Watch the voltage climb toward 14 V."],
+    check: "The voltmeter rises above 13 V when charging starts.",
+  },
+  {
+    part: "B", short: "Full flow", title: "Open it fully", gate: 1,
+    lead: "Fully open: 60 L/s falling 2.6 m carries about 1.5 kW. The wheel keeps 80% of it, 1.2 kW, and about half of that reaches the batteries, near 600 W: enough for all six bulbs.",
+    need: ["The sluice fully open"],
+    steps: ["Open the gate all the way.", "Check the belt and bearings for heat after ten minutes."],
+    check: "At 14.2 V the batteries are charging; a reading that keeps rising past 14.8 V means you need a regulator.",
+  },
+];

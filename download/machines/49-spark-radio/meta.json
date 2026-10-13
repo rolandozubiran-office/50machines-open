@@ -1,0 +1,25 @@
+{
+  "n": 49,
+  "slug": "spark-radio",
+  "prefix": "sg",
+  "era": "V",
+  "name": "Spark-gap transmitter",
+  "tagline": "Sends Morse by radio. Marconi crossed the Atlantic with one.",
+  "keyNumber": "1901: ≈ 3,500 km",
+  "difficulty": 4,
+  "needs": [
+    26,
+    48
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/spark-radio-guide.html",
+  "es": {
+    "name": "Transmisor de chispa",
+    "tagline": "Envía Morse por radio. Marconi cruzó el Atlántico con uno.",
+    "keyNumber": "1901: ≈ 3.500 km",
+    "title": "Construye una radio de chispa"
+  }
+}

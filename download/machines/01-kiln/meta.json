@@ -1,0 +1,32 @@
+{
+  "n": 1,
+  "slug": "kiln",
+  "prefix": "kn",
+  "era": "I",
+  "name": "Pottery and brick kiln",
+  "tagline": "Fired clay makes pots, filters, crucibles and the firebrick every later furnace needs.",
+  "keyNumber": "fires at 900–1,000 °C",
+  "difficulty": 2,
+  "needs": [],
+  "unlocks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10,
+    33,
+    40
+  ],
+  "kind": "reference",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/kiln-guide.html",
+  "es": {
+    "name": "Horno de cerámica y ladrillo",
+    "tagline": "El barro cocido da ollas, filtros, crisoles y el ladrillo refractario que necesitará cada horno posterior.",
+    "keyNumber": "cuece a 900–1.000 °C",
+    "title": "Construye un horno de cerámica"
+  }
+}

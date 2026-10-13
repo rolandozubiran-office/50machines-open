@@ -1,0 +1,24 @@
+{
+  "n": 44,
+  "slug": "microscope",
+  "prefix": "mc",
+  "era": "V",
+  "name": "Microscope",
+  "tagline": "A single glass bead magnifies enough to see microbes, the start of germ theory.",
+  "keyNumber": "up to 266×",
+  "difficulty": 2,
+  "needs": [
+    8
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/microscope-guide.html",
+  "es": {
+    "name": "Microscopio",
+    "tagline": "Una sola bolita de vidrio aumenta lo bastante para ver microbios: el inicio de la teoría microbiana.",
+    "keyNumber": "hasta 266×",
+    "title": "Construye un microscopio"
+  }
+}

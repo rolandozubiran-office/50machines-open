@@ -1,0 +1,32 @@
+{
+  "n": 8,
+  "slug": "glass",
+  "prefix": "gl",
+  "era": "I",
+  "name": "Glass furnace",
+  "tagline": "Glass for jars, lenses, light bulbs and sight glasses.",
+  "keyNumber": "melts at ≈ 1,320 °C",
+  "difficulty": 4,
+  "needs": [
+    1,
+    5
+  ],
+  "unlocks": [
+    28,
+    29,
+    36,
+    37,
+    44,
+    45
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/glass-guide.html",
+  "es": {
+    "name": "Horno de vidrio",
+    "tagline": "Vidrio para tarros, lentes, bombillas y mirillas.",
+    "keyNumber": "funde a ≈ 1.320 °C",
+    "title": "Construye un horno de vidrio"
+  }
+}

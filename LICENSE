@@ -19,9 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-The copyright notice above does not cover third-party code. Third-party code
-remains under its own licence. In particular, the anatomy drawing kit (for
-example the copy in reference/power/power.html) is not covered by the copyright
-above and remains under the MIT License of Ryan, Copyright (c) 2026 Ryan. See
-THIRD_PARTY_NOTICES.md.
