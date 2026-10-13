@@ -1,0 +1,15 @@
+{
+  "n": null,
+  "slug": "your-machine",
+  "title": "Build a ...",
+  "tagline": "One sentence, up to 110 characters, on what it does for you.",
+  "numbers": ["key number 1", "key number 2", "key number 3"],
+  "safety": "One plain line, or null.",
+  "needs": [1],
+  "era": "I",
+  "steps": 0,
+  "sources": ["Author, title, year, page or URL"],
+  "author": { "name": "Your name", "github": "your-handle" },
+  "ai_assisted": { "used": false, "tool": "" },
+  "community": true
+}

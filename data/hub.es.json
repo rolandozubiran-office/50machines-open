@@ -1,0 +1,700 @@
+{
+ "eras": {
+  "I": [
+   "Fuego y agua",
+   "El barro cocido, el agua hervida y el jabón evitan la mayoría de las muertes tempranas. El carbón vegetal y la cal aportan el calor y los materiales para todo lo demás."
+  ],
+  "II": [
+   "Metal y movimiento",
+   "Una fragua, una fundición y un torno fabrican herramientas que fabrican herramientas. Las ruedas hidráulicas y los engranajes ponen un río a trabajar."
+  ],
+  "III": [
+   "Electricidad",
+   "Una pila, luego un imán, luego un alternador movido por una rueda. A partir de aquí la energía puede viajar por un cable."
+  ],
+  "IV": [
+   "Vivir bien",
+   "Comida fría, agua caliente, gas para cocinar y motores que funcionan con leña o con sol."
+  ],
+  "V": [
+   "Señales y cálculo",
+   "Imprenta, hora, rumbo; después mensajes por cable y por el aire y, por último, una máquina que calcula."
+  ]
+ },
+ "machines": {
+  "1": [
+   "Horno de cerámica y ladrillo",
+   "El barro cocido da ollas, filtros, crisoles y el ladrillo refractario que necesitará cada horno posterior.",
+   "cuece a 900–1.000 °C",
+   "Construye un horno de cerámica"
+  ],
+  "2": [
+   "Estufa rocket y hervidor",
+   "Hervir el agua mata los gérmenes; una estufa rocket lo hace con un 40–50 % menos de leña que un fuego abierto.",
+   "1 minuto de hervor fuerte",
+   "Construye una estufa rocket"
+  ],
+  "3": [
+   "Caldero de jabón de ceniza",
+   "La lejía de ceniza de leña y la grasa dan jabón. Lavarse las manos reduce la diarrea en torno a un 30 %.",
+   "−30 % de diarrea",
+   "Haz jabón con ceniza",
+   "La lejía de ceniza y la grasa dan jabón; lavarse las manos con él reduce la diarrea en torno a un 30 %."
+  ],
+  "4": [
+   "Filtro de bioarena",
+   "Arena y una biopelícula viva limpian el agua de beber sin ningún combustible.",
+   "en casa ≈ reduce a la mitad la diarrea",
+   "Construye un filtro de bioarena"
+  ],
+  "5": [
+   "Horno de carbón vegetal",
+   "El carbón vegetal arde con calor y limpieza suficientes para fundir y forjar metal.",
+   "≈ 20–25 % de rendimiento en peso",
+   "Construye un horno de carbón vegetal"
+  ],
+  "6": [
+   "Horno de cal",
+   "La caliza calcinada da mortero, encalado y un desinfectante.",
+   "por encima de ≈ 900 °C",
+   "Construye un horno de cal"
+  ],
+  "7": [
+   "Bomba de mecate",
+   "Un lazo de cuerda con arandelas sube agua con una manivela.",
+   "≈ 40 L/min desde 10 m",
+   "Construye una bomba de mecate"
+  ],
+  "8": [
+   "Horno de vidrio",
+   "Vidrio para tarros, lentes, bombillas y mirillas.",
+   "funde a ≈ 1.320 °C",
+   "Construye un horno de vidrio"
+  ],
+  "9": [
+   "Fuelle y fragua",
+   "El carbón avivado con aire suelda y da forma al hierro de todas las herramientas que vienen después.",
+   "suelda a la fragua a más de 1.400 °C",
+   "Construye una fragua"
+  ],
+  "10": [
+   "Fundición de chatarra",
+   "Refunde aluminio y bronce de chatarra en poleas, engranajes y bastidores.",
+   "el bronce funde a ≈ 950 °C",
+   "Construye una fundición de chatarra"
+  ],
+  "11": [
+   "Hilera de trefilar",
+   "Estira varilla de cobre por agujeros cada vez más pequeños hasta hacer hilo para bobinas y cables.",
+   "recocer cada ~3 pasadas",
+   "Haz hilo de cobre"
+  ],
+  "12": [
+   "Torno de pértiga",
+   "La primera máquina herramienta: tornea ejes, mangos y cojinetes.",
+   "a pedal",
+   "Construye un torno de pértiga",
+   "La primera máquina herramienta: un arbolillo y tu pie tornean ejes, mangos y cojinetes."
+  ],
+  "13": [
+   "Torno para metal",
+   "Un torno que ayuda a construirse a sí mismo, y después la limadora, la fresadora y el taladro de columna.",
+   "el taller de 7 máquinas de Gingery",
+   "Construye un torno para metal"
+  ],
+  "14": [
+   "Eje de transmisión, engranajes y correas",
+   "Lleva la fuerza de una sola rueda hidráulica a todas las máquinas de un taller.",
+   "una fuente, muchas máquinas",
+   "Monta un taller con eje de transmisión"
+  ],
+  "15": [
+   "Rueda hidráulica",
+   "Una rueda de alimentación superior aprovecha casi toda la fuerza del agua: el primer gran motor.",
+   "≈ 85 % de rendimiento",
+   "Construye una rueda hidráulica",
+   "Una rueda de alimentación superior aprovecha casi toda la fuerza del agua: el primer gran motor, aquí moviendo un martinete."
+  ],
+  "16": [
+   "Molino de viento para bombear",
+   "El molino multipala bombea agua sin ningún combustible.",
+   "la bomba eólica más extendida",
+   "Construye un molino de bombeo"
+  ],
+  "17": [
+   "Molino de grano hidráulico",
+   "Unas muelas movidas por una rueda hidráulica muelen tanto como unas 40 muelas de mano: harina para cientos de familias.",
+   "molino de mano: 2–3 kg/h",
+   "Construye un molino hidráulico"
+  ],
+  "18": [
+   "Almazara",
+   "Molino de piedra, prensa de capachos y decantador: de 300 kg de aceituna, unos 50 L de aceite.",
+   "≈ 5,6 kg de aceituna por litro",
+   "Construye una almazara"
+  ],
+  "19": [
+   "Ariete hidráulico",
+   "Usa el propio impulso del agua para bombearla cuesta arriba, día y noche, sin combustible.",
+   "30–100 golpes por minuto",
+   "Construye un ariete hidráulico"
+  ],
+  "20": [
+   "Máquina de vapor",
+   "Convierte la leña o el carbón en movimiento en cualquier sitio, no solo junto a un río.",
+   "Newcomen: ≈ 5 CV",
+   "Construye una máquina de vapor"
+  ],
+  "21": [
+   "Pila voltaica",
+   "Cobre, zinc y un electrolito dan la primera corriente eléctrica estable.",
+   "1,1 V por pila Daniell",
+   "Construye una pila"
+  ],
+  "22": [
+   "Electroimán",
+   "Hilo enrollado sobre hierro: el corazón de motores, relés, telégrafos y dinamos.",
+   "una pila, una bobina",
+   "Construye un electroimán",
+   "Hilo enrollado sobre hierro: unas pocas pilas hacen un imán que se enciende y se apaga, el corazón de motores y relés."
+  ],
+  "23": [
+   "Generador de arroyo",
+   "Una rueda hidráulica con multiplicación 100:1 hace girar un alternador de coche y carga baterías.",
+   "≈ 600 W con 60 L/s",
+   "Saca electricidad de un arroyo"
+  ],
+  "24": [
+   "Alternador de imanes permanentes",
+   "Bobinas hechas a mano e imanes: un generador que fabricas en vez de rescatarlo.",
+   "≈ 500 W a 425 rpm",
+   "Construye un alternador de imanes permanentes"
+  ],
+  "25": [
+   "Aerogenerador",
+   "El diseño de Hugh Piggott convierte el viento en electricidad a 12–48 V con herramientas de mano.",
+   "≈ 500 W con 12 m/s",
+   "Construye un aerogenerador"
+  ],
+  "26": [
+   "Batería de plomo-ácido",
+   "Placas de plomo en ácido guardan la energía del día para la noche.",
+   "pila de Planté, 1859",
+   "Construye una batería de plomo-ácido"
+  ],
+  "27": [
+   "Motor eléctrico",
+   "Un generador al revés: bombas, ventiladores y herramientas eléctricas en cualquier parte.",
+   "las mismas piezas que una dinamo",
+   "Construye un motor eléctrico"
+  ],
+  "28": [
+   "Bombilla",
+   "Un filamento de carbono en el vacío. El bambú carbonizado duraba más de 1.200 horas.",
+   "filamentos de 1.200 h",
+   "Haz una bombilla"
+  ],
+  "29": [
+   "Panel solar",
+   "Primero, paneles rescatados; una célula casera de selenio u óxido de cobre demuestra el efecto.",
+   "Fritts, 1883: ≈ 1 % de rendimiento",
+   "Saca energía del sol",
+   "Dos paneles rescatados en un bastidor inclinado cargan una batería de 12 V; una célula de óxido de cobre en un tarro demuestra el efecto."
+  ],
+  "30": [
+   "Microturbina hidráulica",
+   "Una turbina de flujo cruzado se adapta a los cambios de caudal mejor que una rueda.",
+   "70–85 % de rendimiento",
+   "Construye una microturbina hidráulica"
+  ],
+  "31": [
+   "Clorador de agua salada",
+   "La corriente que atraviesa la salmuera produce cloro para desinfectar el agua de beber.",
+   "≈ 6 g/L en unas 2 h",
+   "Saca cloro del agua salada"
+  ],
+  "32": [
+   "Soldador de arco",
+   "Une acero con corriente: depósitos, bastidores y recipientes a presión.",
+   "suelda chapa de acero",
+   "Construye un soldador de arco"
+  ],
+  "33": [
+   "Nevera zeer",
+   "Dos vasijas de barro y arena mojada: la evaporación mantiene fría la comida sin electricidad.",
+   "tomates: 20 días, no 2",
+   "Construye una nevera zeer"
+  ],
+  "34": [
+   "Pozo de nieve",
+   "El hielo del invierno, prensado en serrín, dura hasta el verano.",
+   "hielo hasta junio–agosto",
+   "Construye un pozo de hielo"
+  ],
+  "35": [
+   "Frigorífico de absorción",
+   "El Icyball: se calienta en una llama y luego da frío todo el día. Sin electricidad.",
+   "1,5 h de calor → 24 h de frío",
+   "Construye un frigorífico Icyball"
+  ],
+  "36": [
+   "Calentador solar de agua",
+   "Una caja negra con tubos bajo un cristal: duchas calientes gracias al sol.",
+   "sin combustible",
+   "Construye un calentador solar de agua"
+  ],
+  "37": [
+   "Horno solar",
+   "Una caja acristalada con reflectores cocina y pasteuriza.",
+   "cocina a 107–135 °C",
+   "Construye un horno solar",
+   "Una caja aislada y acristalada con un reflector de papel de aluminio cuece arroz y pasteuriza agua solo con el sol."
+  ],
+  "38": [
+   "Gasógeno",
+   "Convierte astillas de madera en un gas combustible que mueve un motor.",
+   "diseño FEMA de 1989",
+   "Construye un gasógeno"
+  ],
+  "39": [
+   "Motor Stirling",
+   "Un motor que funciona con cualquier calor exterior, desde un fuego hasta un espejo al sol.",
+   "Stirling, 1818: 2 CV",
+   "Construye un motor Stirling"
+  ],
+  "40": [
+   "Biodigestor",
+   "El estiércol y los restos de comida se pudren y dan gas para cocinar y abono.",
+   "gas y abono",
+   "Construye un biodigestor"
+  ],
+  "41": [
+   "Papel e imprenta",
+   "Papel, tinta ferrogálica y tipos fundidos copian el saber deprisa.",
+   "250 pliegos por hora",
+   "Construye una imprenta",
+   "Papel, tinta ferrogálica y tipos fundidos copian el saber deprisa: una prensa de mano imprime 250 pliegos por hora."
+  ],
+  "42": [
+   "Reloj de péndulo",
+   "El péndulo redujo el error de los relojes de unos 15 minutos al día a 15 segundos.",
+   "≈ 15 s al día",
+   "Construye un reloj de péndulo",
+   "Un peso que oscila marca la hora con segundos de error al día, donde los relojes anteriores se desviaban un cuarto de hora."
+  ],
+  "43": [
+   "Brújula",
+   "Una aguja imantada colgada de un hilo de seda señala el norte.",
+   "Shen Kuo, 1088",
+   "Haz una brújula"
+  ],
+  "44": [
+   "Microscopio",
+   "Una sola bolita de vidrio aumenta lo bastante para ver microbios: el inicio de la teoría microbiana.",
+   "hasta 266×",
+   "Construye un microscopio"
+  ],
+  "45": [
+   "Telescopio",
+   "Dos lentes en un tubo para navegar, medir el terreno y mirar el cielo.",
+   "≈ 20×",
+   "Construye un telescopio"
+  ],
+  "46": [
+   "Telégrafo",
+   "Un manipulador, una pila y un cable envían mensajes de punta a punta de un país al instante.",
+   "Morse, 1844: 61 km",
+   "Construye un telégrafo"
+  ],
+  "47": [
+   "Teléfono",
+   "Un micrófono de carbón lleva la voz por el cable del telégrafo.",
+   "micrófono de Hughes, 1878",
+   "Construye un teléfono"
+  ],
+  "48": [
+   "Radio de galena",
+   "Recibe emisoras sin ninguna alimentación: una bobina, un cristal y un auricular.",
+   "sin pilas",
+   "Construye una radio de galena"
+  ],
+  "49": [
+   "Transmisor de chispa",
+   "Envía Morse por radio. Marconi cruzó el Atlántico con uno.",
+   "1901: ≈ 3.500 km",
+   "Construye una radio de chispa"
+  ],
+  "50": [
+   "Ordenador de relés",
+   "Miles de relés forman un ordenador programable.",
+   "Zuse Z3: 5–10 Hz",
+   "Construye un ordenador de relés",
+   "Doce relés hechos a mano suman dos números de 4 bits, y miles de ellos forman un ordenador programable."
+  ]
+ },
+ "short": {
+  "14": "Eje, engranajes y correas",
+  "17": "Molino hidráulico",
+  "23": "Generador de arroyo",
+  "24": "Alternador de imanes",
+  "35": "Frigorífico Icyball",
+  "41": "Imprenta",
+  "49": "Radio de chispa",
+  "31": "Clorador",
+  "30": "Microturbina",
+  "16": "Molino de bombeo",
+  "10": "Fundición de chatarra",
+  "11": "Hilera de trefilar",
+  "3": "Jabón de ceniza",
+  "36": "Calentador solar",
+  "26": "Batería plomo-ácido",
+  "32": "Soldador de arco",
+  "1": "Horno cerámico"
+ },
+ "replace": [
+  [
+   "<title>Reboot</title>",
+   "<title>Reboot · 50 máquinas</title>"
+  ],
+  [
+   "50 machines to restart civilization and live well, each one unlocking the next, with interactive build guides.",
+   "50 máquinas para reiniciar la civilización y vivir bien, cada una abre paso a la siguiente, con guías de construcción interactivas."
+  ],
+  [
+   "Field manual · 50 machines",
+   "Manual de campo · 50 máquinas"
+  ],
+  [
+   ">Tech tree</a>",
+   ">Árbol tecnológico</a>"
+  ],
+  [
+   ">The 50</a>",
+   ">Las 50</a>"
+  ],
+  [
+   ">Guides</a>",
+   ">Guías</a>"
+  ],
+  [
+   ">Method</a>",
+   ">Método</a>"
+  ],
+  [
+   "If everything switched off tomorrow",
+   "Si mañana se apagara todo"
+  ],
+  [
+   "50 machines to restart civilization, and live well.",
+   "50 máquinas para reiniciar la civilización, y vivir bien."
+  ],
+  [
+   "From a clay kiln to a computer, in the order you could actually build them. Each machine needs only the ones before it, and each guide walks you through the parts, the steps and the check, then lets you run the thing.",
+   "De un horno de barro a un ordenador, en el orden en que de verdad podrías construirlas. Cada máquina solo necesita las anteriores, y cada guía te lleva por las piezas, los pasos y la comprobación, y luego te deja ponerla en marcha."
+  ],
+  [
+   "Build guide 02: electricity from a stream",
+   "Guía 23: electricidad de un arroyo"
+  ],
+  [
+   "Explore the tech tree",
+   "Explora el árbol tecnológico"
+  ],
+  [
+   "Open the water wheel generator guide",
+   "Abrir la guía del generador de rueda hidráulica"
+  ],
+  [
+   "Electricity from a stream",
+   "Electricidad de un arroyo"
+  ],
+  [
+   "An isometric model of a water wheel geared to a car alternator, charging two batteries that light a string of six bulbs.",
+   "Modelo isométrico de una rueda hidráulica engranada a un alternador de coche que carga dos baterías y enciende una tira de seis bombillas."
+  ],
+  [
+   "60 L/s · 1,679 rpm · 14.2 V",
+   "60 L/s · 1.679 rpm · 14,2 V"
+  ],
+  [
+   "612 W · open the guide →",
+   "612 W · abrir la guía →"
+  ],
+  [
+   "machines, each drawn as a real build",
+   "máquinas, cada una dibujada como una construcción real"
+  ],
+  [
+   "eras, from fire to computing",
+   "eras, del fuego a la computación"
+  ],
+  [
+   "rule: nothing comes before what it needs",
+   "regla: nada va antes de lo que necesita"
+  ],
+  [
+   "interactive guides ready to run",
+   "guías interactivas listas para usar"
+  ],
+  [
+   "How one leads to another",
+   "Cómo una lleva a la otra"
+  ],
+  [
+   ">The tech tree<",
+   ">El árbol tecnológico<"
+  ],
+  [
+   "Tap any machine to trace it. Brass lines run back to everything it needs; the dark ones run forward to everything it unlocks.",
+   "Toca cualquier máquina para seguir su rastro. Las líneas doradas van hacia atrás, a todo lo que necesita; las oscuras van hacia delante, a todo lo que desbloquea."
+  ],
+  [
+   "Tech tree of 50 machines in five eras, with lines from each machine to the machines it needs.",
+   "Árbol tecnológico de 50 máquinas en cinco eras, con líneas de cada máquina a las que necesita."
+  ],
+  [
+   "In build order",
+   "En orden de construcción"
+  ],
+  [
+   ">The 50<",
+   ">Las 50<"
+  ],
+  [
+   "Survival comes first because everything else stands on it: clean water, fire, soap, metal. After that the list turns toward living well: power, cold, light, and machines that think.",
+   "Primero va la supervivencia, porque todo lo demás se apoya en ella: agua limpia, fuego, jabón, metal. Después la lista se orienta a vivir bien: energía, frío, luz y máquinas que piensan."
+  ],
+  [
+   "Build it, then run it",
+   "Constrúyela y ponla en marcha"
+  ],
+  [
+   ">Guides<",
+   ">Guías<"
+  ],
+  [
+   "Each guide is an exploded build. Parts drop in step by step with what you need, what to do and how to check it, then the machine runs on real numbers.",
+   "Cada guía es un despiece. Las piezas caen en su sitio paso a paso, con lo que necesitas, lo que hay que hacer y cómo comprobarlo, y luego la máquina funciona con cifras reales."
+  ],
+  [
+   "Next on the bench",
+   "Lo siguiente en el banco"
+  ],
+  [
+   "Why this order",
+   "Por qué este orden"
+  ],
+  [
+   ">Method<",
+   ">Método<"
+  ],
+  [
+   "The order is our judgement, built from published survival and appropriate-technology work. The numbers on each card come from those sources.",
+   "El orden es criterio nuestro, basado en obras publicadas de supervivencia y tecnología apropiada. Las cifras de cada ficha salen de esas fuentes."
+  ],
+  [
+   "Scored, then sorted by need",
+   "Puntuadas y luego ordenadas por dependencia"
+  ],
+  [
+   "Each machine is scored on lives saved, how many later machines it unlocks, labour saved, how buildable it is and how easily it is kept running. Anything a machine needs is moved ahead of it.",
+   "Cada máquina se puntúa por vidas salvadas, cuántas máquinas posteriores desbloquea, trabajo ahorrado, lo factible que es construirla y lo fácil que es mantenerla en marcha. Todo lo que una máquina necesita pasa por delante de ella."
+  ],
+  [
+   "Salvage first, scratch as fallback",
+   "Primero rescatar; fabricar desde cero, como alternativa"
+  ],
+  [
+   "For years after a collapse a car alternator, a solar panel or a radio is easier to find than to make. Guides start from salvage where it is realistic and keep the from-scratch route beside it.",
+   "Durante años después de un colapso, un alternador de coche, un panel solar o una radio serán más fáciles de encontrar que de fabricar. Las guías parten de piezas rescatadas cuando es realista y mantienen al lado la vía desde cero."
+  ],
+  [
+   "Drawn from real sources",
+   "Basado en fuentes reales"
+  ],
+  [
+   "Lewis Dartnell's <i>The Knowledge</i>, Open Source Ecology's 50-machine Global Village Construction Set, Practical Action's technical briefs, David Gingery's shop-from-scrap series and Hugh Piggott's wind turbine plans.",
+   "<i>Abecedario para reconstruir el mundo</i> (<i>The Knowledge</i>) de Lewis Dartnell, el Global Village Construction Set de 50 máquinas de Open Source Ecology, las fichas técnicas de Practical Action, la serie de taller con chatarra de David Gingery y los planos de aerogenerador de Hugh Piggott."
+  ],
+  [
+   "Reboot is a field manual of how machines go together, not engineering drawings. Have pressure vessels, dams and wiring checked before you build.",
+   "Reboot es un manual de campo sobre cómo se montan las máquinas, no un conjunto de planos de ingeniería. Haz revisar por un profesional los recipientes a presión, las presas y las instalaciones eléctricas antes de construir."
+  ],
+  [
+   "Difficulty ${d} of 5",
+   "Dificultad ${d} de 5"
+  ],
+  [
+   "} steps</span>",
+   "} pasos</span>"
+  ],
+  [
+   " model\" loading",
+   " (modelo)\" loading"
+  ],
+  [
+   "on the list</span>",
+   "de la lista</span>"
+  ],
+  [
+   "\">Open →</span>",
+   "\">Abrir →</span>"
+  ],
+  [
+   "\"Needs \" + m.needs",
+   "\"Necesita \" + m.needs"
+  ],
+  [
+   ": \"Start here\"}",
+   ": \"Empieza aquí\"}"
+  ],
+  [
+   ">Era ${era.id}",
+   ">Era ${era.id}"
+  ],
+  [
+   "Open the build guide →",
+   "Abrir la guía de construcción →"
+  ],
+  [
+   "Guide coming",
+   "Guía en preparación"
+  ],
+  [
+   "<dt>Key number</dt>",
+   "<dt>Cifra clave</dt>"
+  ],
+  [
+   "<dt>Difficulty</dt>",
+   "<dt>Dificultad</dt>"
+  ],
+  [
+   "<dt>Before it</dt>",
+   "<dt>Antes</dt>"
+  ],
+  [
+   "<dt>After it</dt>",
+   "<dt>Después</dt>"
+  ],
+  [
+   "} machines</dd>",
+   "} máquinas</dd>"
+  ],
+  [
+   ">Needs</div>",
+   ">Necesita</div>"
+  ],
+  [
+   ">Unlocks</div>",
+   ">Desbloquea</div>"
+  ],
+  [
+   "Nothing. Start here.",
+   "Nada. Empieza aquí."
+  ],
+  [
+   "The top of its branch.",
+   "La cima de su rama."
+  ],
+  [
+   ">Guide</span>",
+   ">Guía</span>"
+  ],
+  [
+   "\"needs \" + m.needs",
+   "\"necesita \" + m.needs"
+  ],
+  [
+   ": \"start here\"}",
+   ": \"empieza aquí\"}"
+  ],
+  [
+   "Sections\"",
+   "Secciones\""
+  ],
+  [
+   "50 machines to restart civilization.</p>",
+   "50 máquinas para reiniciar la civilización.</p>"
+  ],
+  [
+   "From a clay kiln to a relay computer, in the order you could build them. Each one uses only what you already made. Open a guide, drop the parts in, then run it on real numbers.",
+   "De un horno de barro a un ordenador de relés, en el orden en que podrías construirlas. Cada una usa solo lo que ya has hecho. Abre una guía, coloca las piezas y ponla en marcha con cifras reales."
+  ],
+  [
+   "§ 1 · Tree",
+   "§ 1 · Árbol"
+  ],
+  [
+   "§ 2 · List",
+   "§ 2 · Lista"
+  ],
+  [
+   "§ 3 · Guides",
+   "§ 3 · Guías"
+  ],
+  [
+   "§ 4 · Method",
+   "§ 4 · Método"
+  ],
+  [
+   "§ 5 · Book",
+   "§ 5 · Libro"
+  ],
+  [
+   "50 machines · 5 eras · <span data-count>50</span> interactive guides · 1 rule: nothing comes before what it needs",
+   "50 máquinas · 5 eras · <span data-count>50</span> guías interactivas · 1 regla: nada va antes de lo que necesita"
+  ],
+  [
+   ">The printed manual<",
+   ">El manual impreso<"
+  ],
+  [
+   "All 50 machines in one hardcover: every isometric plate, every step and every check, printed to keep on the bench when the screen is off.",
+   "Las 50 máquinas en un solo volumen de tapa dura: cada lámina isométrica, cada paso y cada comprobación, impresos para tenerlos en el banco de trabajo cuando la pantalla esté apagada."
+  ],
+  [
+   "Hardcover · 50 guides · ships from Spain",
+   "Tapa dura · 50 guías · envío desde España"
+  ],
+  [
+   "Pre-order soon",
+   "Preventa muy pronto"
+  ],
+  [
+   "Have pressure vessels, dams and wiring checked before you build. <a href=\"legal/safety.html\">Safety notice</a>.",
+   "Haz revisar por un profesional los recipientes a presión, las presas y las instalaciones eléctricas antes de construir. <a href=\"legal/safety.html\">Aviso de seguridad</a>."
+  ],
+  [
+   "Reboot is a field manual of how machines go together, not engineering drawings. ",
+   "Reboot es un manual de campo sobre cómo se montan las máquinas, no un conjunto de planos de ingeniería. "
+  ],
+  [
+   "aria-label=\"Legal\"><a href=\"legal/notice.html\">Legal notice</a><a href=\"legal/terms.html\">Terms of sale</a><a href=\"legal/withdrawal.html\">Withdrawal</a><a href=\"legal/shipping.html\">Shipping</a><a href=\"legal/privacy.html\">Privacy</a><a href=\"legal/cookies.html\">Cookies</a><a href=\"legal/safety.html\">Safety</a><a href=\"es/\" hreflang=\"es\" lang=\"es\">Español</a>",
+   "aria-label=\"Legal\"><a href=\"legal/notice.html\">Aviso legal</a><a href=\"legal/terms.html\">Condiciones de venta</a><a href=\"legal/withdrawal.html\">Desistimiento</a><a href=\"legal/shipping.html\">Envíos</a><a href=\"legal/privacy.html\">Privacidad</a><a href=\"legal/cookies.html\">Cookies</a><a href=\"legal/safety.html\">Seguridad</a><a href=\"../\" hreflang=\"en\" lang=\"en\">English</a>"
+  ],
+  [
+   "Designed and edited in Madrid · ASSEMBLR VENTURES, S.L. · Sources:",
+   "Diseñado y editado en Madrid · ASSEMBLR VENTURES, S.L. · Fuentes:"
+  ],
+  [
+   "content=\"Reboot · 50 machines to restart civilization\"",
+   "content=\"Reboot · 50 máquinas para reiniciar la civilización\""
+  ],
+  [
+   "content=\"50 machines, in the order you could build them, each with an interactive build guide.\"",
+   "content=\"50 máquinas, en el orden en que podrías construirlas, cada una con su guía interactiva.\""
+  ],
+  [
+   "<link rel=\"canonical\" href=\"https://50machines.com/\">",
+   "<link rel=\"canonical\" href=\"https://50machines.com/es/\">"
+  ],
+  [
+   "<a href=\"es/\" hreflang=\"es\" lang=\"es\">ES</a></nav>",
+   "</nav>"
+  ],
+  [
+   ">Safety notice</a>.",
+   ">Aviso de seguridad</a>."
+  ]
+ ]
+}

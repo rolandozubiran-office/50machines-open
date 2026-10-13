@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "50 Machines community machine",
+  "type": "object",
+  "required": ["slug", "title", "tagline", "numbers", "safety", "needs", "era", "sources", "author", "ai_assisted"],
+  "properties": {
+    "n": { "type": ["integer", "null"], "minimum": 51 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9-]{2,40}$" },
+    "title": { "type": "string", "maxLength": 80 },
+    "tagline": { "type": "string", "maxLength": 110 },
+    "numbers": { "type": "array", "items": { "type": "string" }, "minItems": 3, "maxItems": 3 },
+    "safety": { "type": ["string", "null"] },
+    "needs": { "type": "array", "items": { "type": "integer", "minimum": 1 }, "minItems": 1 },
+    "era": { "enum": ["I", "II", "III", "IV", "V"] },
+    "steps": { "type": "integer" },
+    "sources": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "author": { "type": "object", "required": ["name"], "properties": { "name": { "type": "string" }, "github": { "type": "string" } } },
+    "ai_assisted": { "type": "object", "required": ["used"], "properties": { "used": { "type": "boolean" }, "tool": { "type": "string" } } },
+    "community": { "const": true }
+  }
+}

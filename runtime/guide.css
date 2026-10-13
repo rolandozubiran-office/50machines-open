@@ -1,0 +1,62 @@
+.om-part{transition:transform 900ms var(--anatomy-ease),opacity 450ms var(--anatomy-ease)}
+.om-part[data-state="later"]{opacity:0;transform:translateY(-70px);pointer-events:none;transition:transform 420ms ease-in,opacity 300ms ease-in}
+.om-part[data-state="now"] .iso-edge,.om-part[data-state="now"] .tb-edge{stroke:var(--anatomy-lit);stroke-width:1.1px}
+.og-rail{display:flex;flex-wrap:wrap;gap:12px 26px;margin-top:14px}
+.og-chapter-name{display:block;font-family:var(--anatomy-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--anatomy-muted);margin-bottom:7px}
+.og-chips{display:flex;flex-wrap:wrap;gap:5px}
+.og-chip,.og-nav button{display:inline-flex;align-items:baseline;gap:6px;padding:5px 10px;border:0;border-radius:999px;background:transparent;color:var(--anatomy-muted);font:12.5px/1.3 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;cursor:pointer;box-shadow:inset 0 0 0 1px var(--om-ring);transition:color 160ms var(--anatomy-ease),background 160ms var(--anatomy-ease)}
+.og-chip[data-past]{color:var(--anatomy-text)}
+.og-chip:hover,.og-chip:focus-visible,.og-chip[data-on],.og-nav button:hover:not(:disabled),.og-nav button:focus-visible{color:var(--anatomy-strong);background:var(--om-hover);outline:none}
+.og-panel{margin-top:18px;padding-top:16px;border-top:1px solid var(--om-ring);min-height:250px}
+.og-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px}
+.og-count{font-family:var(--anatomy-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--anatomy-muted)}
+.og-title{margin:0;font:600 19px/1.3 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--anatomy-strong);letter-spacing:-.01em}
+.og-lead{margin:8px 0 16px;max-width:70ch;font:14.5px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--anatomy-text)}
+.og-cols{display:grid;grid-template-columns:1fr 1.25fr;gap:20px 28px}
+.og-cols h3{margin:0 0 6px;font-family:var(--anatomy-mono);font-size:10px;font-weight:400;letter-spacing:.1em;text-transform:uppercase;color:var(--anatomy-muted)}
+.og-cols ul,.og-cols ol{margin:0;padding-left:18px;font:13.5px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--anatomy-text)}
+.og-cols li{margin:3px 0}.og-cols li::marker{color:var(--anatomy-muted)}
+.og-check{margin:16px 0 0;font:13.5px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--anatomy-text)}
+.og-check span{margin-right:10px;font-family:var(--anatomy-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--anatomy-strong)}
+.og-nav{display:flex;justify-content:space-between;margin-top:18px}
+.og-nav button{padding:7px 14px;color:var(--anatomy-strong)}
+.og-nav button:disabled{opacity:.35;cursor:default}
+@media (max-width:640px){.og-cols{grid-template-columns:1fr}.og-panel{min-height:0}}
+@media (prefers-reduced-motion:reduce){.om-part,.om-part[data-state="later"]{transition:none}}
+.og [data-run-only][hidden]{display:none}
+.iso-line[data-flow]{animation-duration:var(--pw-flow-dur,1600ms)}
+/* reel mode: a 1080 × 1920 vertical video of the guide */
+html.reel{--reel-accent:#e9b75c;--reel-display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;--reel-body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;--reel-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace}
+html.reel body[data-theme="light"]{--reel-accent:#94620c}
+html.reel,html.reel body{width:1080px;height:1920px;margin:0;overflow:hidden;background:var(--anatomy-card)}
+html.reel .iso-page{max-width:none;width:1080px;margin:0;padding:0}
+html.reel .iso-figure{margin:0}
+html.reel .iso-plate{position:relative;width:1080px;height:1920px;padding:440px 30px 0;box-shadow:none;overflow:hidden}
+html.reel .om-stage-box>svg{transform:scale(1.05);transform-origin:50% 0;margin-bottom:40px}
+html.reel .iso-plate-corners,html.reel .og-rail,html.reel .og-panel,html.reel .og-nav,html.reel .iso-legend,html.reel .om-controls,html.reel .pw-controls{display:none!important}
+html.reel .om-stage-box:focus-visible{outline:none}
+html.reel .pw-stats{margin:18px 30px 0}
+html.reel .pw-stats span{font-size:15px}
+html.reel .pw-stats b{font-size:30px}
+.reel-head,.reel-step,.reel-bar,.reel-end{display:none}
+html.reel .reel-head{display:block;position:absolute;top:72px;left:64px;right:64px}
+html.reel .reel-kicker{font:500 21px/1 var(--reel-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--anatomy-muted)}
+html.reel .reel-num{display:flex;align-items:baseline;gap:8px;margin-top:22px}
+html.reel .reel-num b{font:900 150px/.8 var(--reel-display);color:var(--reel-accent)}
+html.reel .reel-num span{font:800 54px/1 var(--reel-display);color:var(--anatomy-muted)}
+html.reel .reel-title{margin-top:18px;font:900 92px/.88 var(--reel-display);text-transform:uppercase;color:var(--anatomy-strong);text-wrap:balance}
+html.reel .reel-step{display:block;position:absolute;left:64px;right:64px;bottom:150px}
+html.reel .reel-chapter{font:500 21px/1 var(--reel-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--reel-accent)}
+html.reel .reel-step-title{margin-top:16px;font:600 54px/1.1 var(--reel-body);color:var(--anatomy-strong);text-wrap:balance}
+html.reel .reel-lead{margin-top:16px;font:400 31px/1.4 var(--reel-body);color:var(--anatomy-text)}
+html.reel .reel-bar{display:flex;gap:8px;position:absolute;left:64px;right:64px;bottom:84px}
+html.reel .reel-bar i{flex:1;height:6px;border-radius:3px;background:var(--anatomy-faint);transition:background 400ms}
+html.reel .reel-bar i[data-on]{background:var(--reel-accent)}
+html.reel .reel-end{display:flex;flex-direction:column;justify-content:center;position:absolute;inset:0;padding:0 80px;background:var(--anatomy-card);opacity:0;transition:opacity 600ms}
+html.reel[data-reel-end] .reel-end{opacity:1}
+html.reel .reel-end-title{margin-top:28px;font:900 150px/.85 var(--reel-display);text-transform:uppercase;color:var(--anatomy-strong)}
+html.reel .reel-end-sub{margin-top:30px;font:400 38px/1.35 var(--reel-body);color:var(--anatomy-text);max-width:22ch}
+html.reel .reel-end-mark{position:absolute;bottom:90px;left:80px;font:900 64px/1 var(--reel-display);letter-spacing:.06em;color:var(--reel-accent)}
+/* keep a frame pending in reel mode: virtual-time screenshots stall on a page that never repaints */
+@keyframes reel-tick{to{opacity:.999}}
+html.reel .reel-head::after{content:"";position:absolute;width:1px;height:1px;right:0;top:0;opacity:1;animation:reel-tick 1s linear infinite alternate}
