@@ -7,7 +7,7 @@ Every machine is one folder with these files. Copy `template/` and look at `refe
 | `meta.json` | yes | Number, slug, title, tagline, 3 key numbers, safety line, `needs`, `sources`, `author`. Schema: `community/machine.schema.json`. |
 | `guide.mjs` | yes | `CHAPTERS` and `GUIDE`: the steps people read. |
 | `model.mjs` | yes | Small pure functions with the real physics or process numbers. Drives the readout. |
-| `parts.mjs`, `build.mjs`, `live.js` | optional | The isometric drawing and animation. Maintainers can make these with the project's drawing kit. |
+| `parts.mjs`, `build.mjs`, `live.js` | optional | The isometric drawing and animation. Maintainers can make these with Ryan's anatomy kit (MIT; see `THIRD_PARTY_NOTICES.md`). |
 
 ## guide.mjs
 
@@ -33,3 +33,5 @@ export const GUIDE = [
 
 ## Drawing conventions (for whoever renders)
 SVG only. Isometric camera, azimuth about 58°, viewBox 760 × 470. A base plate with a ruler strip and a label plate engraved `50 MACHINES · NN`. One lit accent (the thing to watch); monochrome otherwise. Both light and dark themes. Every line ends on something. Hazardous builds get a safety line in the caption.
+
+Drawings in this repository are rendered with Ryan's open-source anatomy kit (https://github.com/wheresryan22/anatomy). Content in this repository is under CC BY-SA 4.0 and code under the MIT License. Those licences cover only this repository. They do not cover the printed edition of the book *50 Machines* (© 2026 ASSEMBLR VENTURES, S.L., all rights reserved for that edition). Third-party code keeps its own licence: the anatomy kit remains under the MIT License of Ryan, Copyright (c) 2026 Ryan. See `THIRD_PARTY_NOTICES.md`.
