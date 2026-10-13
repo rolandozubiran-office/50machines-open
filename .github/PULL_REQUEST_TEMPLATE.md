@@ -9,4 +9,4 @@ Name, slug, which machines it needs, which part of the tree.
 - [ ] Every number sourced or derived from a stated formula. No invented statistics.
 - [ ] Hazards named; safety line written (`SAFETY.md`).
 - [ ] If AI-assisted: tool named, and I checked every number, step and source myself.
-- [ ] I license this under CC BY-SA 4.0 (content) and MIT (code).
+- [ ] I license this under CC BY-SA 4.0 (content) and MIT (code), and my commits are signed off (DCO).

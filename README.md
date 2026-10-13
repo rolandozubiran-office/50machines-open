@@ -28,7 +28,8 @@ The first 50 guides were made by Rolando Zubirán. This repository holds the for
 
 - **Code** (`runtime/`, `reference/**/*.mjs|js`, scripts): MIT, see `LICENSE`.
 - **Content** (guide text, data, numbers, drawings, everything else): Creative Commons Attribution-ShareAlike 4.0, see `LICENSE-CONTENT`. Credit: "50 Machines (50machines.com)".
-- By opening a pull request you agree to license your contribution under the same terms.
+- Rights holder: ASSEMBLR VENTURES, S.L. (Madrid, Spain).
+- **By submitting a pull request you certify that you wrote the contribution or have the right to submit it, and you agree that it is licensed under CC BY-SA 4.0 (content) and MIT (code).** Add `Signed-off-by: Your Name <email>` to your commits (`git commit -s`), as in the Developer Certificate of Origin (https://developercertificate.org).
 
 The printed book and the 50machines.com brand are not covered by these licences.
 

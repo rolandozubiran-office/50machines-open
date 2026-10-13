@@ -12,7 +12,7 @@ A machine may only need machines that come before it in the tree. List them by n
 - [ ] Every number has a source in `sources` or a formula stated in the caption. No invented statistics.
 - [ ] Hazards named and a safety line written (see `SAFETY.md`).
 - [ ] If drafted with AI: I have checked every number, step and source myself. (Say which tool you used.)
-- [ ] I agree to license this under CC BY-SA 4.0 (content) and MIT (code).
+- [ ] I agree to license this under CC BY-SA 4.0 (content) and MIT (code), and my commits are signed off (`git commit -s`, DCO).
 
 ## Review
 1. **Format check** (automatic and by eye): files, fields, step counts.
