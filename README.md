@@ -21,17 +21,23 @@ The first 50 guides were made by Rolando Zubirán. This repository holds the for
 1. Open an issue with the **Propose a machine** template. Say what it does, what earlier machines it needs and your sources.
 2. Copy `template/` to `community/<slug>/` and fill it in. You may draft with your own AI using `prompts/PROMPT_KIT.md`. You are responsible for every number and every step.
 3. Open a pull request. Fill in the checklist.
-4. A maintainer reviews it against `CONTRIBUTING.md` and `SAFETY.md`. Nothing is published on the site without review. Maintainers render the isometric drawing with the project's drawing kit if you cannot.
+4. A maintainer reviews it against `CONTRIBUTING.md` and `SAFETY.md`. Nothing is published on the site without review. Maintainers render the isometric drawing with Ryan's anatomy kit if you cannot (MIT; see `THIRD_PARTY_NOTICES.md`).
 5. When it is accepted it appears on 50machines.com marked **community**, with your name.
 
 ## Licence
 
+Content in this repository is under Creative Commons Attribution-ShareAlike 4.0. Code in this repository is under the MIT License.
+
 - **Code** (`runtime/`, `reference/**/*.mjs|js`, scripts): MIT, see `LICENSE`.
 - **Content** (guide text, data, numbers, drawings, everything else): Creative Commons Attribution-ShareAlike 4.0, see `LICENSE-CONTENT`. Credit: "50 Machines (50machines.com)".
-- Rights holder: ASSEMBLR VENTURES, S.L. (Madrid, Spain).
-- **By submitting a pull request you certify that you wrote the contribution or have the right to submit it, and you agree that it is licensed under CC BY-SA 4.0 (content) and MIT (code).** Add `Signed-off-by: Your Name <email>` to your commits (`git commit -s`), as in the Developer Certificate of Origin (https://developercertificate.org).
 
-The printed book and the 50machines.com brand are not covered by these licences.
+Those licences cover only this repository. They do not cover the printed edition of the book *50 Machines* (© 2026 ASSEMBLR VENTURES, S.L., all rights reserved for that edition). They also do not cover the 50machines.com brand.
+
+Rights holder of this repository's own material: ASSEMBLR VENTURES, S.L. (Madrid, Spain).
+
+Third-party code keeps its own licence. The isometric drawings are rendered with Ryan's open-source anatomy kit (https://github.com/wheresryan22/anatomy), which remains under the MIT License, Copyright (c) 2026 Ryan. See `THIRD_PARTY_NOTICES.md`. The copyright in `LICENSE` does not cover that kit.
+
+**By submitting a pull request you certify that you wrote the contribution or have the right to submit it, and you agree that it is licensed under CC BY-SA 4.0 (content) and MIT (code).** Add `Signed-off-by: Your Name <email>` to your commits (`git commit -s`), as in the Developer Certificate of Origin (https://developercertificate.org).
 
 ## Safety
 

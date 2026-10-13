@@ -1,3 +1,4 @@
+// anatomy kit © 2026 Ryan (github.com/wheresryan22/anatomy), MIT License: see THIRD_PARTY_NOTICES.md
 import { readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
