@@ -37,6 +37,8 @@ Rights holder of this repository's own material: ASSEMBLR VENTURES, S.L. (Madrid
 
 Third-party code keeps its own licence. The isometric drawings are rendered with Ryan's open-source anatomy kit (https://github.com/wheresryan22/anatomy), which remains under the MIT License, Copyright (c) 2026 Ryan. See `THIRD_PARTY_NOTICES.md`. The copyright in `LICENSE` does not cover that kit.
 
+The anatomy drawing kit and any code from it (including inlined copies in reference/**/*.html) are © 2026 Ryan, MIT License; see THIRD_PARTY_NOTICES.md.
+
 **By submitting a pull request you certify that you wrote the contribution or have the right to submit it, and you agree that it is licensed under CC BY-SA 4.0 (content) and MIT (code).** Add `Signed-off-by: Your Name <email>` to your commits (`git commit -s`), as in the Developer Certificate of Origin (https://developercertificate.org).
 
 ## Safety

@@ -25,3 +25,5 @@ remains under its own licence. In particular, the anatomy drawing kit (for
 example the copy in reference/power/power.html) is not covered by the copyright
 above and remains under the MIT License of Ryan, Copyright (c) 2026 Ryan. See
 THIRD_PARTY_NOTICES.md.
+
+The anatomy drawing kit and any code from it (including inlined copies in reference/**/*.html) are © 2026 Ryan, MIT License; see THIRD_PARTY_NOTICES.md.
