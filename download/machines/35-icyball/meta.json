@@ -1,0 +1,25 @@
+{
+  "n": 35,
+  "slug": "icyball",
+  "prefix": "ib",
+  "era": "IV",
+  "name": "Absorption refrigerator",
+  "tagline": "The Icyball: heat it on a flame, then it makes cold all day. No electricity.",
+  "keyNumber": "1.5 h of heat → 24 h cold",
+  "difficulty": 5,
+  "needs": [
+    9,
+    32
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/icyball-guide.html",
+  "es": {
+    "name": "Frigorífico de absorción",
+    "tagline": "El Icyball: se calienta en una llama y luego da frío todo el día. Sin electricidad.",
+    "keyNumber": "1,5 h de calor → 24 h de frío",
+    "title": "Construye un frigorífico Icyball"
+  }
+}

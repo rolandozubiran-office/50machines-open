@@ -1,0 +1,25 @@
+{
+  "n": 27,
+  "slug": "motor",
+  "prefix": "mo",
+  "era": "III",
+  "name": "Electric motor",
+  "tagline": "A generator run backwards: pumps, fans and power tools anywhere.",
+  "keyNumber": "same parts as a dynamo",
+  "difficulty": 3,
+  "needs": [
+    22,
+    26
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/motor-guide.html",
+  "es": {
+    "name": "Motor eléctrico",
+    "tagline": "Un generador al revés: bombas, ventiladores y herramientas eléctricas en cualquier parte.",
+    "keyNumber": "las mismas piezas que una dinamo",
+    "title": "Construye un motor eléctrico"
+  }
+}

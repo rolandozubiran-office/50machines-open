@@ -1,0 +1,31 @@
+{
+  "n": 23,
+  "slug": "power",
+  "prefix": "pw",
+  "era": "III",
+  "name": "Stream-powered generator",
+  "tagline": "A water wheel geared 100:1 spins a car alternator and charges batteries.",
+  "keyNumber": "≈ 600 W at 60 L/s",
+  "difficulty": 3,
+  "needs": [
+    14,
+    15,
+    22
+  ],
+  "unlocks": [
+    24,
+    26,
+    30,
+    32
+  ],
+  "kind": "reference",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/power-guide.html",
+  "es": {
+    "name": "Generador de arroyo",
+    "tagline": "Una rueda hidráulica con multiplicación 100:1 hace girar un alternador de coche y carga baterías.",
+    "keyNumber": "≈ 600 W con 60 L/s",
+    "title": "Saca electricidad de un arroyo"
+  }
+}

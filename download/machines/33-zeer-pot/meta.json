@@ -1,0 +1,24 @@
+{
+  "n": 33,
+  "slug": "zeer-pot",
+  "prefix": "zp",
+  "era": "IV",
+  "name": "Zeer pot cooler",
+  "tagline": "Two clay pots and wet sand: evaporation keeps food cold with no power.",
+  "keyNumber": "tomatoes: 20 days, not 2",
+  "difficulty": 1,
+  "needs": [
+    1
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/zeer-pot-guide.html",
+  "es": {
+    "name": "Nevera zeer",
+    "tagline": "Dos vasijas de barro y arena mojada: la evaporación mantiene fría la comida sin electricidad.",
+    "keyNumber": "tomates: 20 días, no 2",
+    "title": "Construye una nevera zeer"
+  }
+}

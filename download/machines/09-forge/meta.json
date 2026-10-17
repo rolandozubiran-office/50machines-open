@@ -1,0 +1,33 @@
+{
+  "n": 9,
+  "slug": "forge",
+  "prefix": "fg",
+  "era": "II",
+  "name": "Bellows and forge",
+  "tagline": "Air-blown charcoal welds and shapes iron into every tool that follows.",
+  "keyNumber": "forge-welds at 1,400 °C+",
+  "difficulty": 2,
+  "needs": [
+    5
+  ],
+  "unlocks": [
+    10,
+    11,
+    12,
+    14,
+    15,
+    35,
+    38,
+    43
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/forge-guide.html",
+  "es": {
+    "name": "Fuelle y fragua",
+    "tagline": "El carbón avivado con aire suelda y da forma al hierro de todas las herramientas que vienen después.",
+    "keyNumber": "suelda a la fragua a más de 1.400 °C",
+    "title": "Construye una fragua"
+  }
+}

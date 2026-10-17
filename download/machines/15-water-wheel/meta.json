@@ -1,0 +1,28 @@
+{
+  "n": 15,
+  "slug": "water-wheel",
+  "prefix": "ww",
+  "era": "II",
+  "name": "Water wheel",
+  "tagline": "An overshot wheel keeps most of the water's power: the first big engine.",
+  "keyNumber": "≈ 85% efficient",
+  "difficulty": 3,
+  "needs": [
+    9,
+    12
+  ],
+  "unlocks": [
+    17,
+    23
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/water-wheel-guide.html",
+  "es": {
+    "name": "Rueda hidráulica",
+    "tagline": "Una rueda de alimentación superior aprovecha casi toda la fuerza del agua: el primer gran motor.",
+    "keyNumber": "≈ 85 % de rendimiento",
+    "title": "Construye una rueda hidráulica"
+  }
+}

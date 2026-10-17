@@ -1,0 +1,32 @@
+{
+  "n": 13,
+  "slug": "metal-lathe",
+  "prefix": "ml",
+  "era": "II",
+  "name": "Metal lathe",
+  "tagline": "A lathe that helps build itself, then the shaper, mill and drill press.",
+  "keyNumber": "Gingery's 7-machine shop",
+  "difficulty": 4,
+  "needs": [
+    10,
+    12
+  ],
+  "unlocks": [
+    20,
+    24,
+    30,
+    39,
+    42,
+    45
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/metal-lathe-guide.html",
+  "es": {
+    "name": "Torno para metal",
+    "tagline": "Un torno que ayuda a construirse a sí mismo, y después la limadora, la fresadora y el taladro de columna.",
+    "keyNumber": "el taller de 7 máquinas de Gingery",
+    "title": "Construye un torno para metal"
+  }
+}

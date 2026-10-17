@@ -1,0 +1,30 @@
+{
+  "n": 22,
+  "slug": "electromagnet",
+  "prefix": "em",
+  "era": "III",
+  "name": "Electromagnet",
+  "tagline": "Wire wound on iron: the heart of motors, relays, telegraphs and dynamos.",
+  "keyNumber": "one battery, one coil",
+  "difficulty": 1,
+  "needs": [
+    11,
+    21
+  ],
+  "unlocks": [
+    23,
+    27,
+    46,
+    50
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/electromagnet-guide.html",
+  "es": {
+    "name": "Electroimán",
+    "tagline": "Hilo enrollado sobre hierro: el corazón de motores, relés, telégrafos y dinamos.",
+    "keyNumber": "una pila, una bobina",
+    "title": "Construye un electroimán"
+  }
+}

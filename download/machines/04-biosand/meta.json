@@ -1,0 +1,24 @@
+{
+  "n": 4,
+  "slug": "biosand",
+  "prefix": "bs",
+  "era": "I",
+  "name": "Biosand water filter",
+  "tagline": "Sand and a living biofilm clean drinking water with no fuel at all.",
+  "keyNumber": "home filters ≈ halve diarrhoea",
+  "difficulty": 2,
+  "needs": [
+    1
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/biosand-guide.html",
+  "es": {
+    "name": "Filtro de bioarena",
+    "tagline": "Arena y una biopelícula viva limpian el agua de beber sin ningún combustible.",
+    "keyNumber": "en casa ≈ reduce a la mitad la diarrea",
+    "title": "Construye un filtro de bioarena"
+  }
+}

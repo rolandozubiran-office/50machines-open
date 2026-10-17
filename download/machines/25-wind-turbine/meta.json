@@ -1,0 +1,25 @@
+{
+  "n": 25,
+  "slug": "wind-turbine",
+  "prefix": "wt",
+  "era": "III",
+  "name": "Wind turbine",
+  "tagline": "Hugh Piggott's design turns wind into 12–48 V power with hand tools.",
+  "keyNumber": "≈ 500 W at 12 m/s",
+  "difficulty": 4,
+  "needs": [
+    16,
+    24
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/wind-turbine-guide.html",
+  "es": {
+    "name": "Aerogenerador",
+    "tagline": "El diseño de Hugh Piggott convierte el viento en electricidad a 12–48 V con herramientas de mano.",
+    "keyNumber": "≈ 500 W con 12 m/s",
+    "title": "Construye un aerogenerador"
+  }
+}

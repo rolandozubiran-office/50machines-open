@@ -1,0 +1,24 @@
+{
+  "n": 3,
+  "slug": "soap",
+  "prefix": "sp",
+  "era": "I",
+  "name": "Ash-lye soap kettle",
+  "tagline": "Lye from wood ash and fat makes soap. Handwashing cuts diarrhoea by about 30%.",
+  "keyNumber": "−30% diarrhoea",
+  "difficulty": 1,
+  "needs": [
+    1
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/soap-guide.html",
+  "es": {
+    "name": "Caldero de jabón de ceniza",
+    "tagline": "La lejía de ceniza de leña y la grasa dan jabón. Lavarse las manos reduce la diarrea en torno a un 30 %.",
+    "keyNumber": "−30 % de diarrea",
+    "title": "Haz jabón con ceniza"
+  }
+}

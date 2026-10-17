@@ -1,0 +1,25 @@
+{
+  "n": 41,
+  "slug": "printing-press",
+  "prefix": "pp",
+  "era": "V",
+  "name": "Paper and printing press",
+  "tagline": "Paper, iron-gall ink and cast type copy knowledge fast.",
+  "keyNumber": "250 sheets an hour",
+  "difficulty": 4,
+  "needs": [
+    10,
+    12
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/printing-press-guide.html",
+  "es": {
+    "name": "Papel e imprenta",
+    "tagline": "Papel, tinta ferrogálica y tipos fundidos copian el saber deprisa.",
+    "keyNumber": "250 pliegos por hora",
+    "title": "Construye una imprenta"
+  }
+}

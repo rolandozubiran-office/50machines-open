@@ -1,0 +1,24 @@
+{
+  "n": 31,
+  "slug": "chlorinator",
+  "prefix": "cl",
+  "era": "III",
+  "name": "Salt-water chlorinator",
+  "tagline": "Current through brine makes chlorine to disinfect drinking water.",
+  "keyNumber": "≈ 6 g/L in about 2 h",
+  "difficulty": 3,
+  "needs": [
+    26
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/chlorinator-guide.html",
+  "es": {
+    "name": "Clorador de agua salada",
+    "tagline": "La corriente que atraviesa la salmuera produce cloro para desinfectar el agua de beber.",
+    "keyNumber": "≈ 6 g/L en unas 2 h",
+    "title": "Saca cloro del agua salada"
+  }
+}

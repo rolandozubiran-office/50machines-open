@@ -1,0 +1,24 @@
+{
+  "n": 39,
+  "slug": "stirling",
+  "prefix": "st",
+  "era": "IV",
+  "name": "Stirling engine",
+  "tagline": "An engine run by any outside heat, from a fire to a mirror in the sun.",
+  "keyNumber": "Stirling 1818: 2 hp",
+  "difficulty": 4,
+  "needs": [
+    13
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/stirling-guide.html",
+  "es": {
+    "name": "Motor Stirling",
+    "tagline": "Un motor que funciona con cualquier calor exterior, desde un fuego hasta un espejo al sol.",
+    "keyNumber": "Stirling, 1818: 2 CV",
+    "title": "Construye un motor Stirling"
+  }
+}

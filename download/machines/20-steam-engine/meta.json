@@ -1,0 +1,25 @@
+{
+  "n": 20,
+  "slug": "steam-engine",
+  "prefix": "se",
+  "era": "II",
+  "name": "Steam engine",
+  "tagline": "Turns burning wood or coal into motion anywhere, not just beside a river.",
+  "keyNumber": "Newcomen: ≈ 5 hp",
+  "difficulty": 5,
+  "needs": [
+    10,
+    13
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/steam-engine-guide.html",
+  "es": {
+    "name": "Máquina de vapor",
+    "tagline": "Convierte la leña o el carbón en movimiento en cualquier sitio, no solo junto a un río.",
+    "keyNumber": "Newcomen: ≈ 5 CV",
+    "title": "Construye una máquina de vapor"
+  }
+}

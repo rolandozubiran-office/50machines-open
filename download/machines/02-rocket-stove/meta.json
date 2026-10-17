@@ -1,0 +1,24 @@
+{
+  "n": 2,
+  "slug": "rocket-stove",
+  "prefix": "rs",
+  "era": "I",
+  "name": "Rocket stove and boiler",
+  "tagline": "Boiling kills waterborne germs; a rocket stove does it on 40–50% less wood than an open fire.",
+  "keyNumber": "1-minute rolling boil",
+  "difficulty": 1,
+  "needs": [
+    1
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/rocket-stove-guide.html",
+  "es": {
+    "name": "Estufa rocket y hervidor",
+    "tagline": "Hervir el agua mata los gérmenes; una estufa rocket lo hace con un 40–50 % menos de leña que un fuego abierto.",
+    "keyNumber": "1 minuto de hervor fuerte",
+    "title": "Construye una estufa rocket"
+  }
+}

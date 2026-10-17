@@ -1,0 +1,29 @@
+{
+  "n": 46,
+  "slug": "telegraph",
+  "prefix": "tg",
+  "era": "V",
+  "name": "Telegraph",
+  "tagline": "A key, a battery and a wire send messages across a country at once.",
+  "keyNumber": "Morse, 1844: 38 miles",
+  "difficulty": 3,
+  "needs": [
+    11,
+    21,
+    22
+  ],
+  "unlocks": [
+    47,
+    50
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/telegraph-guide.html",
+  "es": {
+    "name": "Telégrafo",
+    "tagline": "Un manipulador, una pila y un cable envían mensajes de punta a punta de un país al instante.",
+    "keyNumber": "Morse, 1844: 61 km",
+    "title": "Construye un telégrafo"
+  }
+}

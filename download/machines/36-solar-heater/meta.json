@@ -1,0 +1,25 @@
+{
+  "n": 36,
+  "slug": "solar-heater",
+  "prefix": "sw",
+  "era": "IV",
+  "name": "Solar water heater",
+  "tagline": "A black box of pipes under glass: hot showers from the sun.",
+  "keyNumber": "no fuel",
+  "difficulty": 2,
+  "needs": [
+    8,
+    10
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/solar-heater-guide.html",
+  "es": {
+    "name": "Calentador solar de agua",
+    "tagline": "Una caja negra con tubos bajo un cristal: duchas calientes gracias al sol.",
+    "keyNumber": "sin combustible",
+    "title": "Construye un calentador solar de agua"
+  }
+}

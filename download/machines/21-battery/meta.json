@@ -1,0 +1,28 @@
+{
+  "n": 21,
+  "slug": "battery",
+  "prefix": "vb",
+  "era": "III",
+  "name": "Voltaic battery",
+  "tagline": "Copper, zinc and an electrolyte make the first steady electric current.",
+  "keyNumber": "1.1 V per Daniell cell",
+  "difficulty": 2,
+  "needs": [
+    11
+  ],
+  "unlocks": [
+    22,
+    26,
+    46
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/battery-guide.html",
+  "es": {
+    "name": "Pila voltaica",
+    "tagline": "Cobre, zinc y un electrolito dan la primera corriente eléctrica estable.",
+    "keyNumber": "1,1 V por pila Daniell",
+    "title": "Construye una pila"
+  }
+}

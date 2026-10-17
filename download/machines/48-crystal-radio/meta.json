@@ -1,0 +1,26 @@
+{
+  "n": 48,
+  "slug": "crystal-radio",
+  "prefix": "cr",
+  "era": "V",
+  "name": "Crystal radio",
+  "tagline": "Hears broadcasts with no power at all: a coil, a crystal and an earphone.",
+  "keyNumber": "no battery",
+  "difficulty": 2,
+  "needs": [
+    11
+  ],
+  "unlocks": [
+    49
+  ],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/crystal-radio-guide.html",
+  "es": {
+    "name": "Radio de galena",
+    "tagline": "Recibe emisoras sin ninguna alimentación: una bobina, un cristal y un auricular.",
+    "keyNumber": "sin pilas",
+    "title": "Construye una radio de galena"
+  }
+}

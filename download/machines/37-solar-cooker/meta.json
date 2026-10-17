@@ -1,0 +1,24 @@
+{
+  "n": 37,
+  "slug": "solar-cooker",
+  "prefix": "sc",
+  "era": "IV",
+  "name": "Solar cooker",
+  "tagline": "A glazed box with reflectors cooks and pasteurises.",
+  "keyNumber": "cooks at 107–135 °C",
+  "difficulty": 1,
+  "needs": [
+    8
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/solar-cooker-guide.html",
+  "es": {
+    "name": "Horno solar",
+    "tagline": "Una caja acristalada con reflectores cocina y pasteuriza.",
+    "keyNumber": "cocina a 107–135 °C",
+    "title": "Construye un horno solar"
+  }
+}

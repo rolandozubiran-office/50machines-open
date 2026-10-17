@@ -1,0 +1,24 @@
+{
+  "n": 47,
+  "slug": "telephone",
+  "prefix": "tp",
+  "era": "V",
+  "name": "Telephone",
+  "tagline": "A carbon microphone carries the voice down the telegraph wire.",
+  "keyNumber": "Hughes' microphone, 1878",
+  "difficulty": 3,
+  "needs": [
+    46
+  ],
+  "unlocks": [],
+  "kind": "catalog",
+  "safety": "Read SAFETY.md. This generated card does not certify a build.",
+  "catalog": "data/machines.mjs",
+  "siteGuide": "https://50machines.com/guides/telephone-guide.html",
+  "es": {
+    "name": "Teléfono",
+    "tagline": "Un micrófono de carbón lleva la voz por el cable del telégrafo.",
+    "keyNumber": "micrófono de Hughes, 1878",
+    "title": "Construye un teléfono"
+  }
+}
