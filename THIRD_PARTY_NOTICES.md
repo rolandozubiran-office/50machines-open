@@ -1,5 +1,9 @@
 # Third-party notices
 
+Third-party notices. 50machines.com and the 50machines-open repository include code from the "anatomy" drawing kit by Ryan (github.com/wheresryan22/anatomy, commit 4a32cf2), used under the MIT License reproduced below. This code is not owned by ASSEMBLR VENTURES, S.L.; the ASSEMBLR copyright and licenses on this site and repository do not apply to it.
+
+Avisos de terceros. 50machines.com y el repositorio 50machines-open incluyen código del kit de dibujo «anatomy» de Ryan (github.com/wheresryan22/anatomy, commit 4a32cf2), usado con la licencia MIT que se reproduce abajo. Este código no es titularidad de ASSEMBLR VENTURES, S.L., y el copyright y las licencias de ASSEMBLR de este sitio y repositorio no se le aplican.
+
 Code in this repository that belongs to someone else keeps the licence its author gave it. The copyright in `LICENSE` (Copyright (c) 2026 ASSEMBLR VENTURES, S.L.) does not cover that code.
 
 ## anatomy drawing kit
